@@ -25,7 +25,7 @@ def main():
     # -For the most part you should not adjust the default settings found in HyperParameterFactory
     # -If you receive a CUDA out of Memory error while training, reduce batch_size (this is unlikely when working with
     # text data)
-    hparams = model_hyperparams.get_language_hyperparams(batch_size=96)
+    hparams = model_hyperparams.get_lstm_imdb_hyperparams(batch_size=96)
 
     # 1. Load old data
     train_data, valid_data, test_data, vocab_size = data_factory.get_imdb_datasets(hparams)
