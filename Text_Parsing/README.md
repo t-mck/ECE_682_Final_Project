@@ -16,9 +16,6 @@
    -  Contains code that is specific to building neural network models, and exploring the training 
 progress of those models
 
-3. predictions 
+3. predictions (currently empty)
    -  Contains code that is specific to exploring the predictions of a model after they have been 
 generated. This is just provided as an example, feel free to use your own functions, or functions from another package.
-
-4. example_code 
-   -  Contains code examples used to construct this package.
