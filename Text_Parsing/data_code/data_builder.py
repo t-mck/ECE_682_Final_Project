@@ -33,9 +33,9 @@ class IMDBDataBuilder(DataBuilder):
 
     def load_and_build_data(self,
                             data_file: str = 'IMDBDataset.csv',
-                            training_size: float = 0.7,
+                            training_size: float = 0.8,
                             validation_size: float = 0.1,
-                            test_size: float = 0.2) -> tuple:
+                            test_size: float = 0.1) -> tuple:
         """
         Load the IMDB dataset
         :param data_file: the path of the dataset file.

@@ -38,8 +38,8 @@ class LanguageHyperParams(HyperParams):
                  embedding_dim: int = 48,
                  hidden_dim: int = 200,
                  output_dim: int = 2,
-                 n_layers: int = 1,
-                 dropout_rate: float = 0.5,
+                 n_layers: int = 2,
+                 dropout_rate: float = 0.65,  # 0.65 is best so far, fin acc 0.8868
                  lr: float = 0.00001,
                  n_epochs: int = 5,
                  wd: int = 0,
