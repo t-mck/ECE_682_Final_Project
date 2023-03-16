@@ -6,7 +6,7 @@
 #
 
 from model import nn_model_setup as nms
-import os
+import torch
 
 def main():
     """
@@ -49,6 +49,10 @@ def main():
     preds = prediction_factory.get_and_save_predictions(model=model,
                                                         new_data=new_data,
                                                         pred_file_name='file_name.csv')
+
+    # Free memory for later usage.
+    del model
+    torch.cuda.empty_cache()
 
     # 5. Explore predictions with summary statistics
     # Maybe pair preds with new_data, to explore how different predictors affected pred classification?
