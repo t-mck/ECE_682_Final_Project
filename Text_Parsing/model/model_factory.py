@@ -1,9 +1,9 @@
 from Text_Parsing.data_code import data_loader as dl, data_augmenter as da
-import model_trainer as mt
-import model_plotter as mp
-import model_utilities as mu
-import custom_models as cm
-import model_hyperparameter_factory as mhf
+from Text_Parsing.model import model_trainer as mt
+from Text_Parsing.model import model_plotter as mp
+from Text_Parsing.model import model_utilities as mu
+from Text_Parsing.model import custom_models as cm
+from Text_Parsing.model import model_hyperparameter_factory as mhf
 
 import torch.nn as nn
 
@@ -16,21 +16,18 @@ class AbstractModelFactory:
         self.model_plotter = mp.ModelPlotter()
         self.model_utils = mu.ModelUtilities()
 
-    def get_base_model_by_name(self, base_model_type: str, pretrained: bool = True):
-        pass
-
-    def build_model(self,
-                    train_data,
-                    valid_data,
-                    test_data,
-                    hyperparameters: mhf.HyperParams,
-                    base_model_type: str,
-                    pretrained: bool = True,
-                    try_to_use_gpu: bool = True,
-                    gpu_number: int = 1,
-                    return_training_summary: bool = False,
-                    plot_training_summary: bool = True):
-        pass
+    # def build_model(self,
+    #                 train_data,
+    #                 valid_data,
+    #                 test_data,
+    #                 hyperparameters: mhf.HyperParams,
+    #                 base_model_type: str,
+    #                 pretrained: bool = True,
+    #                 try_to_use_gpu: bool = True,
+    #                 gpu_number: int = 1,
+    #                 return_training_summary: bool = False,
+    #                 plot_training_summary: bool = True):
+    #     pass
 
 
 class LanguageModelFactory(AbstractModelFactory):
@@ -82,13 +79,13 @@ class LanguageModelFactory(AbstractModelFactory):
     #     # TODO: complete this function, want to add more data_code to this... like stack an LSTM on top of it?
     #     return model
 
-    def get_base_model_by_name(self, base_model_type: str, pretrained: bool = True):
+    def get_base_model_by_name(self, hparams, vocab_size, base_model_type: str, pretrained: bool = True):
         if base_model_type == 'BERT':
             return self.get_bert(pretrained=pretrained)
         elif base_model_type == 'LSTM':
-            return self.get_lstm()
+            return self.get_lstm(hparams=hparams, vocab_size=vocab_size)
         elif base_model_type == 'GRU':
-            return self.get_gru()
+            return self.get_gru(hparams=hparams, vocab_size=vocab_size)
         elif base_model_type == 'GPT':
             return self.get_gpt()
         elif base_model_type == 'RoBERT':
@@ -98,13 +95,15 @@ class LanguageModelFactory(AbstractModelFactory):
                     train_data,
                     valid_data,
                     test_data,
+                    vocab_size,
                     hyperparameters: mhf.HyperParams,
                     base_model_type: str,
                     pretrained: bool = True,
                     try_to_use_gpu: bool = True,
                     gpu_number: int = 1,
                     return_training_summary: bool = False,
-                    plot_training_summary: bool = True):
+                    plot_training_summary: bool = True
+                    ):
 
         # 0. Get training hardware (i.e. try to get a GPU if our computer has one)
         device = self.model_utils.get_training_device(try_to_use_gpu=try_to_use_gpu,
@@ -122,7 +121,11 @@ class LanguageModelFactory(AbstractModelFactory):
                                                                                                hparams=hyperparameters)
 
         # 3. Get base model (i.e. get the 'backbone'), optimization function, and optimization criterion
-        base_model = self.get_base_model_by_name(base_model_type=base_model_type, pretrained=pretrained)
+        base_model = self.get_base_model_by_name(base_model_type=base_model_type,
+                                                 pretrained=pretrained,
+                                                 hparams=hyperparameters,
+                                                 vocab_size=vocab_size)
+
         optimizer = self.model_utils.get_optimizer(hparams=hyperparameters, model=base_model)
         criterion = self.model_utils.get_criterion(device=device)
 

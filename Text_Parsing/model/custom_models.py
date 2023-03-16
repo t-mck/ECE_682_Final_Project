@@ -1,4 +1,4 @@
-import model_utilities as mu
+from Text_Parsing.model import model_utilities as mu
 
 import torch.nn as nn
 import torch

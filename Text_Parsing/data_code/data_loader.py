@@ -1,4 +1,4 @@
-import data_utilities as du
+from Text_Parsing.data_code import data_utilities as du
 import torch
 import functools
 

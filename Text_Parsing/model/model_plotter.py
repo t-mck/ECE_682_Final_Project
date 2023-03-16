@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import os
 import numpy as np
-import model_hyperparameter_factory as mhf
+from Text_Parsing.model import model_hyperparameter_factory as mhf
 
 
 class ModelPlotter:
@@ -40,7 +40,7 @@ class ModelPlotter:
             ax.set_ylabel('Accuracy')
             training_data = data['Training']
             validation_data = data['Validation']
-        elif data_type_label == 'Accuracy':  # Loss
+        elif data_type_label == 'Loss':  # Loss
             ax.set_ylabel('Log Loss')
             training_data = np.log(data['Training'])
             validation_data = np.log(data['Validation'])
@@ -53,10 +53,10 @@ class ModelPlotter:
 
         ax.legend(loc='best')
         ax.set_title(plot_title)
-        ax.set_xlabel('epoch')
+        ax.set_xlabel('Epoch')
 
         if save_plot:
-            file_name = f'Training_vs_epoch_for_{data_type_label}'
+            file_name = f'Training_vs_Epoch_for_{data_type_label}'
             plot_folder = "./plots"
             if not os.path.exists(plot_folder):
                 os.makedirs(plot_folder)

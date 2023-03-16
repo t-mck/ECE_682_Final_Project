@@ -1,7 +1,7 @@
 from torch.utils.data import Dataset
-import data_utilities as du
-import data_builder as db
-import Text_Parsing.model.model_hyperparameter_factory as mhf
+from Text_Parsing.data_code import data_utilities as du
+from Text_Parsing.data_code import data_builder as db
+from Text_Parsing.model import model_hyperparameter_factory as mhf
 
 
 class AbstractDatasetFactory:
@@ -16,8 +16,8 @@ class AbstractDatasetFactory:
                      hparams: mhf.HyperParams) -> tuple:
         """
 
-        :param data_builder: (odb.DataBuilder)
-        :param hparams: (omhf.HyperParams)
+        :param data_builder: (db.DataBuilder)
+        :param hparams: (mhf.HyperParams)
         :return: At a minimum a tuple with x_train, x_valid, y_train, y_valid AND possibly x_test & y_test. Additional
         data structures as required.
         """
@@ -39,7 +39,7 @@ class LanguageDatasetFactory(AbstractDatasetFactory):
         vocab_size = len(vocab)
         print(f'Length of vocabulary is {vocab_size}')
 
-        return x_train, x_valid, x_test, y_train, y_valid, y_test, vocab
+        return x_train, x_valid, x_test, y_train, y_valid, y_test, vocab, vocab_size
 
     def get_yelp_healthcode_datasets(self,
                                      hparams: mhf.LanguageHyperParams) -> tuple:
@@ -55,13 +55,13 @@ class LanguageDatasetFactory(AbstractDatasetFactory):
     def get_imdb_datasets(self,
                           hparams: mhf.LanguageHyperParams) -> tuple:
         data_builder = db.IMDBDataBuilder()
-        x_train, x_valid, x_test, y_train, y_valid, y_test, vocab = self.get_datasets(data_builder, hparams)
+        x_train, x_valid, x_test, y_train, y_valid, y_test, vocab, vocab_size = self.get_datasets(data_builder, hparams)
 
         train_data = IMDB(x_train, y_train, vocab, hparams.MAX_LENGTH)
         valid_data = IMDB(x_valid, y_valid, vocab, hparams.MAX_LENGTH)
         test_data = IMDB(x_test, y_test, vocab, hparams.MAX_LENGTH)
 
-        return train_data, valid_data, test_data
+        return train_data, valid_data, test_data, vocab_size
 
 
 class AbstractDataset(Dataset):

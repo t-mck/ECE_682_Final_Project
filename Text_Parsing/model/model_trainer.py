@@ -4,14 +4,14 @@ import torch
 import numpy as np
 import os
 import random
-from data_code import data_utilities as du
+from Text_Parsing.data_code import data_utilities as du
 
 
 class ConstantWithWarmup(torch.optim.lr_scheduler._LRScheduler):
     def __init__(
-        self,
-        optimizer,
-        num_warmup_steps: int,
+            self,
+            optimizer,
+            num_warmup_steps: int,
     ):
         self.num_warmup_steps = num_warmup_steps
         super().__init__(optimizer)
@@ -30,7 +30,6 @@ class ConstantWithWarmup(torch.optim.lr_scheduler._LRScheduler):
 class AbstractModelTrainer:
     def __init__(self):
         self.data_utils = du.DataUtilities()
-        pass
 
     @staticmethod
     def save_current_model(model_to_save, epoch: int, checkpoint_folder: str = './saved_model'):
@@ -44,9 +43,10 @@ class AbstractModelTrainer:
         """
         if not os.path.exists(checkpoint_folder):
             os.makedirs(checkpoint_folder)
-        print("Saving ...")
+        print("    Saving ...\n")
         state = {'state_dict': model_to_save.state_dict(),
                  'epoch': epoch}
+        torch.save(state, os.path.join(checkpoint_folder, 'model.pth'))
 
     @staticmethod
     def get_saved_model(model, path_to_saved_model: str = './saved_model/model.pth'):
@@ -69,10 +69,10 @@ class AbstractModelTrainer:
 
     @staticmethod
     def print_begin_training_messages():
-        print('= ' * 50)
+        print('=' * 50)
         print(f'Begin Training:')
         print('-' * 50)
-        # print current wd
+        print(os.getcwd())
         print('-' * 50)
 
     @staticmethod
@@ -81,7 +81,7 @@ class AbstractModelTrainer:
 
     @staticmethod
     def print_epoch_update_to_screen(accuracy: float, loss: float):
-        print(f'    loss = {loss}, accuracy = {accuracy}')
+        print(f'    loss = {loss}, accuracy = {accuracy}\n')
 
     @staticmethod
     def print_training_complete():
@@ -150,7 +150,7 @@ class LSTMTrainer(AbstractModelTrainer):
         epoch_losses = []
         epoch_accs = []
 
-        for batch in tqdm.tqdm(dataloader, desc='training...', file=sys.stdout):
+        for batch in tqdm.tqdm(dataloader, desc='    training...', file=sys.stdout):
             ids = batch['ids'].to(device)
             length = batch['length']
             label = batch['label'].to(device)
@@ -178,12 +178,16 @@ class LSTMTrainer(AbstractModelTrainer):
                                device,
                                training_summary: dict,
                                validation_set: bool = True):
+
+        if not validation_set:
+            print(f'  Test:')
+
         model.eval()
         epoch_losses = []
         epoch_accs = []
 
         with torch.no_grad():
-            for batch in tqdm.tqdm(dataloader, desc='evaluating...', file=sys.stdout):
+            for batch in tqdm.tqdm(dataloader, desc='    evaluating...', file=sys.stdout):
                 ids = batch['ids'].to(device)
                 length = batch['length']
                 label = batch['label'].to(device)
@@ -195,13 +199,11 @@ class LSTMTrainer(AbstractModelTrainer):
 
         val_loss = np.mean(epoch_losses)
         val_acc = np.mean(epoch_accs)
+        self.print_epoch_update_to_screen(accuracy=val_acc, loss=val_loss)
         if validation_set:
-            self.print_epoch_update_to_screen(accuracy=val_acc, loss=val_loss)
             training_summary['Loss']['Validation'].append(val_loss)
             training_summary['Accuracy']['Validation'].append(val_acc)
         else:
-            print(f'  Test: :')
-            self.print_epoch_update_to_screen(accuracy=val_acc, loss=val_loss)
             training_summary['Loss']['Test'] = val_loss
             training_summary['Accuracy']['Test'] = val_acc
 
@@ -267,12 +269,12 @@ class LSTMTrainer(AbstractModelTrainer):
                 best_valid_loss = epoch_valid_loss
                 self.save_current_model(model_to_save=model, epoch=epoch, checkpoint_folder=checkpoint_folder)
 
+        self.print_training_complete()
+
         # Load the best model's weights.
         self.get_saved_model(model=model, path_to_saved_model='./saved_model/model.pth')
 
         # Evaluate test loss on testing dataset (NOT Validation)
         self.evaluate_for_one_epoch(test_dataloader, model, criterion, device, training_summary, validation_set=False)
 
-        self.print_training_complete()
         return model, training_summary
-

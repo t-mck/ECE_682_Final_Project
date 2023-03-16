@@ -6,7 +6,7 @@
 #
 
 from model import nn_model_setup as nms
-
+import os
 
 def main():
     """
@@ -28,15 +28,16 @@ def main():
     hparams = model_hyperparams.get_language_hyperparams(batch_size=96)
 
     # 1. Load old data
-    train_data, valid_data, test_data = data_factory.get_imdb_datasets(hparams)
+    train_data, valid_data, test_data, vocab_size = data_factory.get_imdb_datasets(hparams)
 
     # 2. Build Deep Neural Network (DNN) model.
     # Note: this can take a very long time (minutes/days).
     model = model_factory.build_model(train_data=train_data,
                                       valid_data=valid_data,
                                       test_data=test_data,
+                                      vocab_size=vocab_size,
                                       hyperparameters=hparams,
-                                      base_model_type='BERT',
+                                      base_model_type='LSTM',
                                       pretrained=True,
                                       try_to_use_gpu=True,
                                       gpu_number=1)

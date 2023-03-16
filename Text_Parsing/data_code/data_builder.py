@@ -1,5 +1,5 @@
 import pandas as pd
-
+import os
 
 class DataBuilder:
     """
@@ -32,10 +32,10 @@ class IMDBDataBuilder(DataBuilder):
         super().__init__()
 
     def load_and_build_data(self,
-                            data_file: str = '../example_code/IMDBDataset.csv',
+                            data_file: str = 'IMDBDataset.csv',
                             training_size: float = 0.7,
                             validation_size: float = 0.1,
-                            test_size: float = 0.1) -> tuple:
+                            test_size: float = 0.2) -> tuple:
         """
         Load the IMDB dataset
         :param data_file: the path of the dataset file.
@@ -44,7 +44,7 @@ class IMDBDataBuilder(DataBuilder):
         :param training_size:
         :return: train, validation and test set.
         """
-        dfx = pd.read_csv(data_file)
+        dfx = pd.read_csv(os.getcwd() + '/data/' + data_file)
         dfx_np = dfx.to_numpy()
         num_obs = len(dfx_np)
 
@@ -64,8 +64,8 @@ class IMDBDataBuilder(DataBuilder):
 
         # Check that test is as expected. Two check are necessary because we are comparing floating point numbers,
         # which are not stored exactly.
-        assert (1 - (training_size + validation_size) < (test_size+0.001))    # 1 - 0.8 = 0.2 < 0.201
-        assert (1 - (training_size + validation_size) > (test_size - 0.001))  # 1 - 0.8 = 0.2 > 0.199
+        assert ((1 - (training_size + validation_size)) < (test_size+0.001))    # 1 - 0.8 = 0.2 < 0.201
+        assert ((1 - (training_size + validation_size)) > (test_size - 0.001))  # 1 - 0.8 = 0.2 > 0.199
 
         test_index_start = int(num_obs * (training_size+validation_size))
         test_index_end = num_obs

@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+from nltk.corpus import stopwords
 
 
 class DataUtilities:

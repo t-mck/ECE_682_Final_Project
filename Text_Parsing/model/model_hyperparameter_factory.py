@@ -1,3 +1,6 @@
+from nltk.corpus import stopwords
+
+
 class HyperParameterFactory:
     def __init__(self):
         pass
@@ -32,16 +35,16 @@ class LanguageHyperParams(HyperParams):
                  stop_words=set(stopwords.words('english')),
                  max_length: int = 256,
                  batch_size: int = 96,
-                 embedding_dim: int = 1,
-                 hidden_dim: int = 100,
+                 embedding_dim: int = 48,
+                 hidden_dim: int = 200,
                  output_dim: int = 2,
                  n_layers: int = 1,
-                 dropout_rate: float = 0.0,
-                 lr: float = 0.01,
+                 dropout_rate: float = 0.5,
+                 lr: float = 0.00001,
                  n_epochs: int = 5,
                  wd: int = 0,
-                 optim: str = "sgd",
-                 bidirectional: bool = False,
+                 optim: str = "rmsprop",
+                 bidirectional: bool = True,
                  seed: int = 2
                  ):
         super().__init__(batch_size=batch_size,
