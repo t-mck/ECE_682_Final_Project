@@ -1,0 +1,128 @@
+American ---- American (New)
+American ---- American (Traditional)
+
+Dessert ---- Bakeries
+Dessert ---- Chocolatiers & Shops
+Dessert ---- Creperies
+Dessert ---- Cupcakes
+Dessert ---- Custom Cakes
+Dessert ---- Desserts
+Dessert ---- Donuts
+Dessert ---- Fondue
+Dessert ---- Gelato
+Dessert ---- Ice Cream & Frozen Yogurt
+Dessert ---- Patisserie/Cake Shop
+Dessert ---- Shaved Ice
+Dessert ---- Shaved Snow
+Dessert ---- Waffles
+Dessert ---- Macarons
+
+Bar ---- Bar Crawl
+Bar ---- Bars
+Bar ---- Bartenders
+Bar ---- Brewpubs
+Bar ---- Champagne Bars
+Bar ---- Cideries
+Bar ---- Cocktail Bars
+Bar ---- Dive Bars
+Bar ---- Drive-Thru Bars
+Bar ---- Gay Bars
+Bar ---- Hookah Bars
+Bar ---- Nightlife
+Bar ---- Pubs
+Bar ---- Social Clubs
+Bar ---- Sports Bars
+Bar ---- Sports Clubs
+Bar ---- Tapas Bars
+Bar ---- Tiki Bars
+Bar ---- Whiskey Bars
+Bar ---- Speakeasies
+Bar ---- Jazz & Blues
+Bar ---- Karaoke
+Bar ---- Gastropubs
+Bar ---- Irish Pub
+
+Beer,Wine,Spirits ---- Beer
+Beer,Wine,Spirits ---- Beer Bar
+Beer,Wine,Spirits ---- Beer Gardens
+Beer,Wine,Spirits ---- Breweries
+Beer,Wine,Spirits ---- Wine & Spirits
+Beer,Wine,Spirits ---- Wine Bars
+Beer,Wine,Spirits ---- Wine Tasting Classes
+Beer,Wine,Spirits ---- Wine Tasting Room
+Beer,Wine,Spirits ---- Wine Tours
+Beer,Wine,Spirits ---- Wineries
+Beer,Wine,Spirits ---- Distilleries
+Beer,Wine,Spirits ---- Paint & Sip
+Beer,Wine,Spirits ---- Beverage Store
+
+
+Breakfast ---- Bed & Breakfast
+Breakfast ---- Breakfast & Brunch
+Breakfast ---- Bagels
+Breakfast ---- Diners
+
+Coffee & Tea ---- Cafes
+Coffee & Tea ---- Coffee & Tea
+Coffee & Tea ---- Coffee & Tea Supplies
+Coffee & Tea ---- Coffee Roasteries
+Coffee & Tea ---- Coffeeshops
+Coffee & Tea ---- Bubble Tea
+Coffee & Tea ---- Tea Rooms
+Coffee & Tea ---- Themed Cafes
+
+
+Asian ---- Tonkatsu
+Asian ---- Teppanyaki
+Asian ---- Sushi Bars
+Asian ---- Ramen
+Asian ---- Izakaya
+Asian ---- Japanese
+Asian ---- Japanese Curry
+Asian ---- Donburi
+Asian ---- Conveyor Belt Sushi
+Asian ---- Cantonese
+Asian ---- Chinese
+Asian ---- Dim Sum
+Asian ---- Fuzhou
+Asian ---- Hainan
+Asian ---- Hakka
+Asian ---- Hong Kong Style Cafe
+Asian ---- Shanghainese
+Asian ---- Szechuan
+Asian ---- Taiwanese
+Asian ---- Asian Fusion
+Asian ---- Dumplings
+Asian ---- Filipino
+Asian ---- Indonesian
+Asian ---- Korean
+Asian ---- Noodles
+Asian ---- Pan Asian
+Asian ---- Singaporean
+Asian ---- Thai
+Asian ---- Vietnamese
+Asian ---- Hot Pot
+Asian ---- Poke
+
+Italian ---- Italian
+Italian ---- Cucina campana
+Italian ---- Pasta Shops
+Italian ---- Pizza
+Italian ---- Sicilian
+
+Healthy,Specialty Food ---- Acai Bowls
+Healthy,Specialty Food ---- Fruits & Veggies
+Healthy,Specialty Food ---- Gluten-Free
+Healthy,Specialty Food ---- Health Markets
+Healthy,Specialty Food ---- Juice Bars & Smoothies
+Healthy,Specialty Food ---- Kombucha
+Healthy,Specialty Food ---- Kosher
+Healthy,Specialty Food ---- Organic Stores
+Healthy,Specialty Food ---- Salad
+Healthy,Specialty Food ---- Specialty Food
+Healthy,Specialty Food ---- Vegan
+Healthy,Specialty Food ---- Vegetarian
+Healthy,Specialty Food ---- Wraps
+
+
+
