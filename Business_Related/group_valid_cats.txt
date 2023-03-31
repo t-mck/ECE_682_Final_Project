@@ -1,0 +1,83 @@
+American ---- American (New)
+American ---- American (Traditional)
+
+Dessert ---- Bakeries
+Dessert ---- Chocolatiers & Shops
+Dessert ---- Creperies
+Dessert ---- Cupcakes
+Dessert ---- Custom Cakes
+Dessert ---- Desserts
+Dessert ---- Donuts
+Dessert ---- Fondue
+Dessert ---- Gelato
+Dessert ---- Ice Cream & Frozen Yogurt
+Dessert ---- Patisserie/Cake Shop
+Dessert ---- Shaved Ice
+Dessert ---- Shaved Snow
+Dessert ---- Waffles
+
+Bar ---- Bar Crawl
+Bar ---- Bars
+Bar ---- Bartenders
+Bar ---- Brewpubs
+Bar ---- Champagne Bars
+Bar ---- Cideries
+Bar ---- Cocktail Bars
+Bar ---- Dive Bars
+Bar ---- Drive-Thru Bars
+Bar ---- Gay Bars
+Bar ---- Hookah Bars
+Bar ---- Nightlife
+Bar ---- Pubs
+Bar ---- Social Clubs
+Bar ---- Sports Bars
+Bar ---- Sports Clubs
+Bar ---- Tapas Bars
+Bar ---- Tiki Bars
+Bar ---- Whiskey Bars
+Bar ---- Speakeasies
+
+Beer ---- Beer
+Beer ---- Beer Bar
+Beer ---- Beer Gardens
+Beer ---- Breweries
+
+Breakfast ---- Bed & Breakfast
+Breakfast ---- Breakfast & Brunch
+
+Coffee & Tea ---- Cafes
+Coffee & Tea ---- Coffee & Tea
+Coffee & Tea ---- Coffee & Tea Supplies
+Coffee & Tea ---- Coffee Roasteries
+Coffee & Tea ---- Coffeeshops
+Coffee & Tea ---- Bubble Tea
+Coffee & Tea ---- Tea Rooms
+Coffee & Tea ---- Themed Cafes
+
+Wine ---- Wine & Spirits
+Wine ---- Wine Bars
+Wine ---- Wine Tasting Classes
+Wine ---- Wine Tasting Room
+Wine ---- Wine Tours
+Wine ---- Wineries
+
+Japanese ---- Tonkatsu
+Japanese ---- Teppanyaki
+Japanese ---- Sushi Bars
+Japanese ---- Ramen
+Japanese ---- Izakaya
+Japanese ---- Japanese
+Japanese ---- Japanese Curry
+Japanese ---- Donburi
+Japanese ---- Conveyor Belt Sushi
+
+Chinese ---- Cantonese
+Chinese ---- Chinese
+Chinese ---- Dim Sum
+Chinese ---- Fuzhou
+Chinese ---- Hainan
+Chinese ---- Hakka
+Chinese ---- Hong Kong Style Cafe
+Chinese ---- Shanghainese
+Chinese ---- Szechuan
+Chinese ---- Taiwanese
