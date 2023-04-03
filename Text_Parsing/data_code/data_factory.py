@@ -41,16 +41,16 @@ class LanguageDatasetFactory(AbstractDatasetFactory):
 
         return x_train, x_valid, x_test, y_train, y_valid, y_test, vocab, vocab_size
 
-    def get_yelp_healthcode_datasets(self,
+    def get_yelp_datasets(self,
                                      hparams: mhf.LanguageHyperParams) -> tuple:
-        data_builder = db.YelpHCDataBuilder()
-        x_train, x_valid, x_test, y_train, y_valid, y_test, vocab = self.get_datasets(data_builder, hparams)
+        data_builder = db.YelpDataBuilder()
+        x_train, x_valid, x_test, y_train, y_valid, y_test, vocab, vocab_size = self.get_datasets(data_builder, hparams)
 
-        train_data = YelpHCDataset(x_train, y_train, vocab, hparams.MAX_LENGTH)
-        valid_data = YelpHCDataset(x_valid, y_valid, vocab, hparams.MAX_LENGTH)
-        test_data = YelpHCDataset(x_test, y_test, vocab, hparams.MAX_LENGTH)
+        train_data = YelpDataset(x_train, y_train, vocab, hparams.MAX_LENGTH)
+        valid_data = YelpDataset(x_valid, y_valid, vocab, hparams.MAX_LENGTH)
+        test_data = YelpDataset(x_test, y_test, vocab, hparams.MAX_LENGTH)
 
-        return train_data, valid_data, test_data
+        return train_data, valid_data, test_data, vocab_size
 
     def get_imdb_datasets(self,
                           hparams: mhf.LanguageHyperParams) -> tuple:
@@ -148,4 +148,31 @@ class IMDB(AbstractDataset):
         final_label = 0
         if review_sentiment == "positive":
             final_label = 1
+        return final_label
+
+
+class YelpDataset(AbstractDataset):
+    def __init__(self, x, y, vocab, max_length=256):
+        """
+        :param x: list of reviews
+        :param y: list of labels
+        :param vocab: vocabulary dictionary {word:index}.
+        :param max_length: the maximum sequence length.
+        """
+        super().__init__(x, y, vocab, max_length)
+
+    @staticmethod
+    def get_final_label(review_sentiment):
+        final_label = 0
+        if review_sentiment == "1":
+            final_label = 1
+        elif review_sentiment == "2":
+            final_label = 2
+        elif review_sentiment == "3":
+            final_label = 3
+        elif review_sentiment == "4":
+            final_label = 4
+        elif review_sentiment == "5":
+            final_label = 5
+
         return final_label
