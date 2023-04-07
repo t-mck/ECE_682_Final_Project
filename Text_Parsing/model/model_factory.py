@@ -126,6 +126,9 @@ class LanguageModelFactory(AbstractModelFactory):
                                                  hparams=hyperparameters,
                                                  vocab_size=vocab_size)
 
+        # move model to device
+        base_model = base_model.to(device)
+
         optimizer = self.model_utils.get_optimizer(hparams=hyperparameters, model=base_model)
         criterion = self.model_utils.get_criterion(device=device)
 

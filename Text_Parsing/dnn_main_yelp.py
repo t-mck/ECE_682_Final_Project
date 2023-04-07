@@ -7,6 +7,7 @@
 
 from model import nn_model_setup as nms
 import torch
+from nltk.corpus import stopwords
 
 def main():
     """
@@ -25,7 +26,21 @@ def main():
     # -For the most part you should not adjust the default settings found in HyperParameterFactory
     # -If you receive a CUDA out of Memory error while training, reduce batch_size (this is unlikely when working with
     # text data)
-    hparams = model_hyperparams.get_language_hyperparams(batch_size=96)
+    hparams = model_hyperparams.get_yelp_hyperparams(batch_size=48,
+                                                     output_dim=5,
+                                                     n_epochs=5,
+                                                     #stop_words=set(stopwords.words('english')),
+                                                     max_length=256,
+                                                     embedding_dim=192,
+                                                     hidden_dim=200,
+                                                     n_layers=5,
+                                                     dropout_rate=0.85,  # 0.65 is best so far, fin acc 0.8868
+                                                     lr=0.00001,
+                                                     wd=0,
+                                                     optim="adagrad",
+                                                     bidirectional=True,
+                                                     seed=2)
+
 
     # 1. Load old data
     train_data, valid_data, test_data, vocab_size = data_factory.get_yelp_datasets(hparams)
@@ -43,12 +58,12 @@ def main():
                                       gpu_number=1)
 
     # 3. Load new data_code, which we want predictions for. TODO: load new data_code
-    new_data = ...  # use test_data here?
+    # new_data = ...  # use test_data here?
 
     # 4. Use DNN model to generate predictions, and then save those predictions
-    preds = prediction_factory.get_and_save_predictions(model=model,
-                                                        new_data=new_data,
-                                                        pred_file_name='file_name.csv')
+    # preds = prediction_factory.get_and_save_predictions(model=model,
+    #                                                     new_data=new_data,
+    #                                                     pred_file_name='file_name.csv')
 
     # Free memory for later usage.
     del model

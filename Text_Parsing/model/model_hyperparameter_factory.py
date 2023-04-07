@@ -6,8 +6,38 @@ class HyperParameterFactory:
         pass
 
     @staticmethod
-    def get_language_hyperparams(batch_size: int = 96):
-        return LanguageHyperParams(batch_size=batch_size)
+    def get_language_hyperparams(batch_size: int = 96, output_dim: int = 2, n_epochs:int=5):
+        return LanguageHyperParams(batch_size=batch_size, output_dim=output_dim, n_epochs=n_epochs)
+
+    @staticmethod
+    def get_yelp_hyperparams(batch_size: int = 96,
+                             output_dim: int = 2,
+                             n_epochs:int=5,
+                             stop_words=set(stopwords.words('english')),
+                             max_length: int = 256,
+                             embedding_dim: int = 48,
+                             hidden_dim: int = 200,
+                             n_layers: int = 2,
+                             dropout_rate: float = 0.65,  # 0.65 is best so far, fin acc 0.8868
+                             lr: float = 0.00001,
+                             wd: int = 0,
+                             optim: str = "rmsprop",
+                             bidirectional: bool = True,
+                             seed: int = 2):
+        return LanguageHyperParams(batch_size=batch_size,
+                                   output_dim=output_dim,
+                                   n_epochs=n_epochs,
+                                   stop_words=stop_words,
+                                   max_length=max_length,
+                                   embedding_dim=embedding_dim,
+                                   hidden_dim=hidden_dim,
+                                   n_layers=n_layers,
+                                   dropout_rate=dropout_rate,
+                                   lr=lr,
+                                   wd=wd,
+                                   optim=optim,
+                                   bidirectional=bidirectional,
+                                   seed=seed)
 
 
 

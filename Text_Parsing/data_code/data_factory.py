@@ -164,7 +164,9 @@ class YelpDataset(AbstractDataset):
     @staticmethod
     def get_final_label(review_sentiment):
         final_label = 0
-        if review_sentiment == "1":
+        if review_sentiment == "0":
+            final_label = 0
+        elif review_sentiment == "1":
             final_label = 1
         elif review_sentiment == "2":
             final_label = 2
@@ -172,7 +174,16 @@ class YelpDataset(AbstractDataset):
             final_label = 3
         elif review_sentiment == "4":
             final_label = 4
-        elif review_sentiment == "5":
-            final_label = 5
+
+        elif review_sentiment == 0:
+            final_label = 0
+        elif review_sentiment == 1:
+            final_label = 1
+        elif review_sentiment == 2:
+            final_label = 2
+        elif review_sentiment == 3:
+            final_label = 3
+        elif review_sentiment == 4:
+            final_label = 4
 
         return final_label

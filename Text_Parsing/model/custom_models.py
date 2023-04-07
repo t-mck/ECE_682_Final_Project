@@ -3,7 +3,6 @@ from Text_Parsing.model import model_utilities as mu
 import torch.nn as nn
 import torch
 
-
 class LSTM(nn.Module):
     def __init__(
             self,
@@ -72,3 +71,43 @@ class LSTM(nn.Module):
         prediction_b = self.fc1(drop_out_b2)
 
         return prediction_b
+
+
+class CustomPretrainedBERT:
+    def __init__(self):
+        pass
+
+    def get_bert(self, x_train:list, y_train:list):
+
+
+        sequence_classification_model = torch.hub.load('huggingface/pytorch-transformers',
+                                                       'modelForSequenceClassification',
+                                                       'bert-base-cased-finetuned-mrpc')
+
+        sequence_classification_tokenizer = torch.hub.load('huggingface/pytorch-transformers', 'tokenizer',
+                                                           'bert-base-cased-finetuned-mrpc')
+
+
+        indexed_tokens = sequence_classification_tokenizer.encode(x_train, add_special_tokens=True)
+        segments_ids = y_train
+        segments_tensors = torch.tensor([segments_ids])
+        tokens_tensor = torch.tensor([indexed_tokens])
+
+        text_1 = "Jim Henson was a puppeteer"
+        text_2 = "Who was Jim Henson ?"
+        indexed_tokens = sequence_classification_tokenizer.encode(text_1, text_2, add_special_tokens=True)
+        segments_ids = [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
+        segments_tensors = torch.tensor([segments_ids])
+        tokens_tensor = torch.tensor([indexed_tokens])
+
+        # Predict the sequence classification logits
+        with torch.no_grad():
+            seq_classif_logits = sequence_classification_model(tokens_tensor, token_type_ids=segments_tensors)
+
+        predicted_labels = torch.argmax(seq_classif_logits[0]).item()
+
+        assert predicted_labels == 0  # In MRPC dataset this means the two sentences are not paraphrasing each other
+
+        # Or get the sequence classification loss (set model to train mode before if used for training)
+        labels = torch.tensor([1])
+        seq_classif_loss = sequence_classification_model(tokens_tensor, token_type_ids=segments_tensors, labels=labels)

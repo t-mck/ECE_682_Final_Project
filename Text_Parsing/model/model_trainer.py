@@ -236,7 +236,7 @@ class LSTMTrainer(AbstractModelTrainer):
 
         # Start training
         self.print_begin_training_messages()
-        model = model.to(device)
+        # model = model.to(device)
         training_summary = self.get_training_summary_data_strcut()
         training_summary['Number_Parameters'] = self.count_parameters(model)
 

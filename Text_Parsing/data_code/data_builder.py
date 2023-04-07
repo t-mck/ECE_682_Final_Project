@@ -118,6 +118,26 @@ class YelpDataBuilder(DataBuilder):
 
         super().__init__()
 
+    def convert_starts_to_0_base(self, stars_vect):
+        for i in range(0, len(stars_vect)):
+            if stars_vect[i] == 1:
+                stars_vect[i] = 0
+                continue
+            elif stars_vect[i] == 2:
+                stars_vect[i] = 1
+                continue
+            elif stars_vect[i] == 3:
+                stars_vect[i] = 2
+                continue
+            elif stars_vect[i] == 4:
+                stars_vect[i] = 3
+                continue
+            elif stars_vect[i] == 5:
+                stars_vect[i] = 4
+
+
+        return stars_vect
+
     def load_and_build_data(self,
                             data_file: str = 'nashville_reviews.csv',
                             training_size: float = 0.8,
@@ -134,6 +154,8 @@ class YelpDataBuilder(DataBuilder):
         dfx = pd.read_csv(os.getcwd() + '/data/' + data_file)
         dfx_np = dfx.to_numpy()
         num_obs = len(dfx_np)
+
+        dfx_np[:,1] = self.convert_starts_to_0_base(dfx_np[:,1])
 
         train_index_start = 0
         train_index_end = int(num_obs * training_size)
