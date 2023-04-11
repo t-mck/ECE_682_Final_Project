@@ -124,5 +124,36 @@ Healthy,Specialty Food ---- Vegan
 Healthy,Specialty Food ---- Vegetarian
 Healthy,Specialty Food ---- Wraps
 
+Mexican/Spanish BELOW:
+Argentine
+Colombian
+Cuban
+Dominican
+Empanadas
+Latin American
+Mexican
+New Mexican Cuisine
+Puerto Rican
+Spanish
+Tacos
+Tapas/Small Plates
+Tex-Mex
+Venezuelan
+
+Mediterranean BELOW:
+Egyptian
+Falafel
+Greek
+Halal
+Kebab
+Lebanese
+Mediterranean
+Moroccan
+Pita
+Portuguese
+Turkish
+Syrian
+Middle Eastern
+Israeli
 
 
