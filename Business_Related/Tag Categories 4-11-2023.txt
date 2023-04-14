@@ -1,0 +1,358 @@
+Food Markets/Shops --- Butcher
+Food Markets/Shops --- Cheese Shops
+Food Markets/Shops --- Cultural Center
+Food Markets/Shops --- CSA
+Food Markets/Shops --- Ethical Grocery
+Food Markets/Shops --- Ethnic Grocery
+Food Markets/Shops --- Farmers Market
+Food Markets/Shops --- Grocery
+Food Markets/Shops --- Herbal Shops
+Food Markets/Shops --- Honey
+Food Markets/Shops --- Imported Food
+Food Markets/Shops --- Fruits & Veggies
+Food Markets/Shops --- Caterers
+Food Markets/Shops --- Cafeteria
+Food Markets/Shops --- Chicken Shop
+Food Markets/Shops --- Health Markets
+Food Markets/Shops --- Herbal Shops
+Food Markets/Shops --- Herbs & Spices
+Food Markets/Shops --- Cooking Classes
+Food Markets/Shops --- Do-It-Yourself Food
+Food Markets/Shops --- Ethnic Food 
+Food Markets/Shops --- Ethnic Grocery
+Food Markets/Shops --- Farmers Market
+Food Markets/Shops --- Imported Food
+Food Markets/Shops --- Food Court
+Food Markets/Shops --- Food Delivery Services
+Food Markets/Shops --- Food Stands
+Food Markets/Shops --- Food Tours
+Food Markets/Shops --- Food Trucks
+Food Markets/Shops --- Gluten-Free
+Food Markets/Shops --- Grill Services
+Food Markets/Shops --- Grocery
+Food Markets/Shops --- International Grocery
+Food Markets/Shops --- Kitchen Incubators
+Food Markets/Shops --- Meat Shops
+Food Markets/Shops --- Organic Stores
+Food Markets/Shops --- Pasta Shops
+Food Markets/Shops --- Personal Chefs
+Food Markets/Shops --- Pick Your Own Farms
+Food Markets/Shops --- Pop-Up Restaurants
+Food Markets/Shops --- Pop-up Shops
+Food Markets/Shops --- Popcorn Shops
+Food Markets/Shops --- Street Vendors
+Food Markets/Shops --- Public Markets
+Food Markets/Shops --- Seafood
+Food Markets/Shops --- Seafood Markets
+
+Healthy,Specialty Food ---- Acai Bowls
+Healthy,Specialty Food ---- Fruits & Veggies
+Healthy,Specialty Food ---- Gluten-Free
+Healthy,Specialty Food ---- Health Markets
+Healthy,Specialty Food ---- Juice Bars & Smoothies
+Healthy,Specialty Food ---- Kombucha
+Healthy,Specialty Food ---- Kosher
+Healthy,Specialty Food ---- Organic Stores
+Healthy,Specialty Food ---- Salad
+Healthy,Specialty Food ---- Specialty Food
+Healthy,Specialty Food ---- Vegan
+Healthy,Specialty Food ---- Vegetarian
+Healthy,Specialty Food ---- Wraps
+Healthy,Specialty Food ---- Live/Raw Food
+DietaryRestrictions
+
+Coffee, Tea, or Breakfast ---- Bed & Breakfast
+Coffee, Tea, or Breakfast ---- Breakfast & Brunch
+Coffee, Tea, or Breakfast ---- Bagels
+Coffee, Tea, or Breakfast ---- Diners
+Coffee, Tea, or Breakfast ---- Cafes
+Coffee, Tea, or Breakfast ---- Coffee & Tea
+Coffee, Tea, or Breakfast ---- Coffee & Tea Supplies
+Coffee, Tea, or Breakfast ---- Coffee Roasteries
+Coffee, Tea, or Breakfast ---- Coffeeshops
+Coffee, Tea, or Breakfast ---- Bubble Tea
+Coffee, Tea, or Breakfast ---- Tea Rooms
+Coffee, Tea, or Breakfast ---- Themed Cafes
+
+Dessert ---- Bakeries
+Dessert ---- Chocolatiers & Shops
+Dessert ---- Creperies
+Dessert ---- Cupcakes
+Dessert ---- Custom Cakes
+Dessert ---- Desserts
+Dessert ---- Donuts
+Dessert ---- Fondue
+Dessert ---- Gelato
+Dessert ---- Ice Cream & Frozen Yogurt
+Dessert ---- Patisserie/Cake Shop
+Dessert ---- Shaved Ice
+Dessert ---- Shaved Snow
+Dessert ---- Waffles
+Dessert ---- Macarons
+
+American ---- American (New)
+American ---- American (Traditional)
+American ---- Steakhouses
+American ---- Tex-Mex
+American ---- Supper Clubs
+American ---- Buffets
+American ---- Burgers
+American ---- Cheesesteaks
+American ---- Canadian (New)
+American ---- Delicatessen
+American ---- Delis
+American ---- Diners
+American ---- Dinner Theater
+American ---- Comfort Food
+American ---- Chicken Wings
+American ---- Cajun/Creole
+American ---- Barbeque
+American ---- Fast Food
+American ---- Local Flavor
+American ---- Pancakes
+American ---- Pretzels
+American ---- Sandwiches
+American ---- Soul Food
+American ---- Poutineries
+American ---- Southern
+American ---- Steakhouses
+American ---- Smokehouse
+American ---- Soup
+American ---- Australian
+
+Latin American ---- Mexican
+Latin American ---- Venezuelan
+Latin American ---- Tacos
+Latin American ---- Argentine
+Latin American ---- Brazilian
+Latin American ---- Honduran
+Latin American ---- Latin American
+Latin American ---- New Mexican Cuisine
+Latin American ---- Nicaraguan
+Latin American ---- Peruvian
+Latin American ---- Colombian
+Latin American ---- Salvadoran
+Latin American ---- Caribbean
+Latin American ---- Cuban
+Latin American ---- Haitian
+Latin American ---- Dominican
+Latin American ---- Empanadas
+Latin American ---- Puerto Rican
+Latin American ---- Trinidadian
+
+Western European --- Tapas/Small Plates
+Western European --- Spanish
+Western European --- Portuguese
+Western European --- Bistros
+Western European --- Brasseries
+Western European --- French
+Western European --- Basque
+Western European --- British
+Western European --- Eastern European
+Western European --- Fish & Chips
+Western European --- Gastropubs
+Western European --- Irish
+Western European --- Modern European
+Western European --- Scandinavian
+Western European --- Scottish
+
+Slavic food --- Serbo Croatian
+Slavic food --- Russian 
+Slavic food --- Polish
+Slavic food --- Croatian
+Slavic food --- Ukranian
+Slavic food --- German
+Slavic food --- Austrian
+Slavic Food ---- Czech
+Slavic Food ---- Belgian
+Slavic Food ---- Hungarian
+Slavic Food ---- Iberian
+
+Italian ---- Italian
+Italian ---- Cucina campana
+Italian ---- Pasta Shops
+Italian ---- Pizza
+Italian ---- Sicilian
+Italian ---- Sardinian
+Italian ---- Tuscan
+Italian ---- Calabrian
+Italian --- Cucina campana
+
+
+South, Southeast Asian --- Indian
+South, Southeast Asian --- Bangladeshi
+South, Southeast Asian --- Himalayan/Nepalese
+South, Southeast Asian --- Pakistani 
+South, Southeast Asian --- Sri Lankan
+South, Southeast Asian --- Australian
+South, Southeast Asian --- Burmese
+South, Southeast Asian --- Cambodian
+South, Southeast Asian --- Indonesian
+South, Southeast Asian --- Laotian
+South, Southeast Asian --- Filipino
+South, Southeast Asian --- Dumplings
+South, Southeast Asian --- Malaysian
+South, Southeast Asian ---- Asian Fusion
+South, Southeast Asian ---- Dumplings
+South, Southeast Asian --- Filipino
+South, Southeast Asian --- Indonesian
+South, Southeast Asian --- Korean
+South, Southeast Asian --- Hawaiian
+South, Southeast Asian --- Poke
+South, Southeast Asian ---  Guamanian
+South, Southeast Asian ---- Noodles
+South, Southeast Asian ---- Pan Asian
+South, Southeast Asian ---- Singaporean
+South, Southeast Asian ---- Thai
+South, Southeast Asian ---- Vietnamese
+South, Southeast Asian ---- Hot Pot
+South, Southeast Asian ---- Poke
+South, Southeast Asian ---- Mongolian
+South, Southeast Asian ---- Noodles
+South, Southeast Asian ---- Oriental
+South, Southeast Asian ---- Pan Asian
+
+Japanese ---- Tonkatsu
+Japanese ---- Teppanyaki
+Japanese ---- Sushi Bars
+Japanese ---- Ramen
+Japanese ---- Izakaya
+Japanese ---- Japanese
+Japanese ---- Japanese Curry
+Japanese ---- Donburi
+Japanese ---- Conveyor Belt Sushi
+
+Chinese ---- Cantonese
+Chinese ---- Chinese
+Chinese ---- Dim Sum
+Chinese ---- Fuzhou
+Chinese ---- Hainan
+Chinese ---- Hakka
+Chinese ---- Hong Kong Style Cafe
+Chinese ---- Shanghainese
+Chinese ---- Szechuan
+Chinese ---- Taiwanese
+
+African --- African
+African --- Ethiopian
+African --- South African
+African --- Somali
+African --- South African
+African --- Senegalese
+
+Middle Eastern ---- Armenian
+Middle Eastern ----- Turkish
+Middle Eastern ---- Iranian
+Middle Eastern ---- Georgian
+Middle Eastern ---- Donairs
+Middle Eastern ---- Egyptian
+Middle Eastern ---- Falafel
+Middle Eastern ---- Kebab
+Middle Eastern ---- Middle Eastern
+Middle Eastern ---- Syrian
+Middle Eastern ---- Arabic
+Middle Eastern --- Afghan
+Middle Eastern --- Uzbek
+
+Mediterranean --- Greek
+Mediterranean --- Israeli
+Mediterranenan --- Halal
+Mediterranenan --- Kosher
+Mediterranenan --- Lebanese
+Mediterranenan --- Mediterranean
+Mediterranenan --- Middle Eastern
+Mediterranenan --- Moroccan
+Mediterranenan --- Olive Oil
+Mediterranenan --- Persian/Iranian
+Mediterranenan --- Pita
+
+Restaurant ---- Caters
+Restaurant ---- RestaurantsAttire
+Restaurant ---- RestaurantsReservations
+Restaurant ---- RestaurantsDelivery
+Restaurant ---- RestaurantsPriceRange2
+Restaurant ---- RestaurantsTakeOut
+Restaurant ---- Ambience
+Restaurant ---- CoatCheck
+Restaurant ---- RestaurantsTableService
+Restaurant ---- RestaurantsGoodForGroups
+
+Bar ---- Bar Crawl
+Bar ---- Bars
+Bar ---- Bartenders
+Bar ---- Brewpubs
+Bar ---- Champagne Bars
+Bar ---- Cideries
+Bar ---- Cocktail Bars
+Bar ---- Dive Bars
+Bar ---- Drive-Thru Bars
+Bar ---- Gay Bars
+Bar ---- Hookah Bars
+Bar ---- Nightlife
+Bar ---- Pubs
+Bar ---- Social Clubs
+Bar ---- Sports Bars
+Bar ---- Sports Clubs
+Bar ---- Tapas Bars
+Bar ---- Tiki Bars
+Bar ---- Whiskey Bars
+Bar ---- Speakeasies
+Bar ---- Jazz & Blues
+Bar ---- Karaoke
+Bar ---- Gastropubs
+Bar ---- Irish Pub
+Bar ---- Pool & Billiards
+Bar ---- Pool Halls
+Bar ---- Music
+Bar ---- Smoking
+Bar ---- GoodForDancing
+Bar ---- HappyHour
+Bar ---- BestNights
+Bar ---- NoiseLevel
+
+Beer,Wine,Spirits ---- Beer
+Beer,Wine,Spirits ---- Beer Bar
+Beer,Wine,Spirits ---- Beer Gardens
+Beer,Wine,Spirits ---- Breweries
+Beer,Wine,Spirits ---- Wine & Spirits
+Beer,Wine,Spirits ---- Wine Bars
+Beer,Wine,Spirits ---- Wine Tasting Classes
+Beer,Wine,Spirits ---- Wine Tasting Room
+Beer,Wine,Spirits ---- Wine Tours
+Beer,Wine,Spirits ---- Wineries
+Beer,Wine,Spirits ---- Distilleries
+Beer,Wine,Spirits ---- Paint & Sip
+Beer,Wine,Spirits ---- Beverage Store
+Beer,Wine,Spirits ---- Tasting Classes
+Beer,Wine,Spirits ---- Beverage Store
+Beer,Wine,Spirits ---- BYOB
+Beer,Wine,Spirits ---- Corkage
+Beer,Wine,Spirits ---- BYOBCorkage
+Beer,Wine,Spirits ---- Beer
+Beer,Wine,Spirits ---- Beer Bar
+Beer,Wine,Spirits ---- Beer Gardens
+Beer,Wine,Spirits ---- Breweries
+Beer,Wine,Spirits ---- Alcohol
+
+Wine ---- Wine & Spirits
+Wine ---- Wine Bars
+Wine ---- Wine Tasting Classes
+Wine ---- Wine Tasting Room
+Wine ---- Wine Tours
+Wine ---- Wineries
+Wine ---- Paint & Sip
+
+Convenience ---- GoodForMeal
+Convenience ---- WiFi
+Convenience ---- GoodForKids
+Convenience ---- BusinessAcceptsCreditCards
+Convenience ---- BusinessParking
+Convenience ---- BikeParking
+Convenience ---- OutdoorSeating
+Convenience ---- DogsAllowed
+Convenience ---- BusinessAcceptsBitcoin
+Convenience ---- RestaurantsCounterService
+Convenience ---- Open24Hours
+Convenience ---- DriveThru
+Convenience ---- WheelchairAccessible
+Convenience ---- HasTV
