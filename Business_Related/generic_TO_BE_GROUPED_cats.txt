@@ -2,7 +2,7 @@
 Afghan
 African
 Arabic
-Argentine
+
 Armenian
 
 Australian
@@ -34,10 +34,10 @@ Cheese Shops
 Cheesesteaks
 Chicken Shop
 Chicken Wings
-Colombian
+
 Comfort Food
 Cooking Classes
-Cuban
+
 
 Cultural Center
 Czech
@@ -47,17 +47,17 @@ Delis
 Dinner Theater
 
 Do-It-Yourself Food
-Dominican
+
 Donairs
 
 Eastern European
-Egyptian
-Empanadas
+
+
 Ethical Grocery
 Ethiopian
 Ethnic Food
 Ethnic Grocery
-Falafel
+
 Farmers Market
 Fast Food
 
@@ -74,12 +74,12 @@ French
 Georgian
 German
 
-Greek
+
 Grill Services
 Grocery
 Guamanian
 Haitian
-Halal
+
 Hawaiian
 
 Herbal Shops
@@ -99,31 +99,31 @@ International
 International Grocery
 Irish
 
-Israeli
 
 
 
 
-Kebab
+
+
 Kitchen Incubators
 
 
 
 Laotian
-Latin American
-Lebanese
+
+
 Live/Raw Food
 Local Flavor
 
 Malaysian
 Meat Shops
-Mediterranean
-Mexican
-Middle Eastern
+
+
+
 Modern European
 Mongolian
-Moroccan
-New Mexican Cuisine
+
+
 Nicaraguan
 
 Olive Oil
@@ -138,7 +138,7 @@ Persian/Iranian
 Personal Chefs
 Peruvian
 Pick Your Own Farms
-Pita
+
 
 
 Polish
@@ -147,11 +147,11 @@ Pool Halls
 Pop-Up Restaurants
 Pop-up Shops
 Popcorn Shops
-Portuguese
+
 Poutineries
 Pretzels
 Public Markets
-Puerto Rican
+
 Russianxs
 
 Salvadoran
@@ -171,23 +171,23 @@ Soul Food
 Soup
 South African
 Southern
-Spanish
+
 
 Sri Lankan
 Steakhouses
 Street Vendors
 Supper Clubs
-Syrian
-Tacos
-Tapas/Small Plates
+
+
+
 Tasting Classes
-Tex-Mex
+
 
 Trinidadian
-Turkish
+
 Tuscan
 Ukrainian
 Uzbek
 
-Venezuelan
+
 
