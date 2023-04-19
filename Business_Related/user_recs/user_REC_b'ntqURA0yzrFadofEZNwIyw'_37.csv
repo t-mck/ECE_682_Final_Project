@@ -1,0 +1,51 @@
+stars,American (New),American (Traditional),Bakeries,Bars,Beer,Breakfast & Brunch,Burgers,Cafes,Caterers,Chicken Wings,Chinese,Cocktail Bars,Coffee & Tea,Delis,Desserts,Fast Food,Italian,Japanese,Mexican,Nightlife,Pizza,Salad,Sandwiches,Seafood,Specialty Food,Sports Bars,Sushi Bars,is_American,is_Dessert,is_Bar,"is_Beer,Wine,Spirits",is_Breakfast,is_Coffee & Tea,is_Asian,is_Italian,"is_Healthy,Specialty Food",is_Latin American,is_Mediterranean,is_Western European,is_Slavic Food,is_African,is_Food Markets/Shops,label,name,city,bus_id
+5.0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,3,Little Ninja Thai Japanese Food & Cafe,Zephyrhills,i5X5dshedNVztWO9_o6Dsw
+5.0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,3,LJ Thai Sushi,Nashville,5jXiZ23pb-xf457uNM2yZg
+5.0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,3,Hinata Japanese Fine Dining,Indianapolis,g4WzNohp7YOYv6-MEJiZJA
+5.0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,3,Emoji Sushi & Teriyaki,Abington,NmzXH-HdWp-Sxdfnw3imUQ
+5.0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,3,Jade Palace,Philadelphia,ue3FLSX9zINnCInCw-ilEQ
+5.0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,3,Mainline Sushi,Paoli,-JQ1rpmdOE8rEla2RDlFaQ
+5.0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,3,HTAW METTA,Indianapolis,NEBeb-9npt6pXMJ2hBaw3g
+5.0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,3,Koco Bell,Boise,G77XgkojEyK19X7LHiqklA
+5.0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,3,Fuzion Spice,Tampa,2jRrqwGjgHgJ9rn0Ptaxuw
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,3,Poke Bros,Indianapolis,igZDgrDIow77YOMolY0xAA
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,3,Junmai Station,Tampa,FzsdmAlIGU8xsK4IcdBEMg
+5.0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,3,Peking Garden,Philadelphia,mlyTBHNwuDrb7FRGSw3o9g
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,3,Island Fin Poke,Tampa,h-0hwjiPSiWQD0UXgAy1_g
+5.0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,3,Poke Island,Pinellas Park,OOv7OvZlExF2Z3Q569RtEw
+5.0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,3,Tanoshii,Willow Grove,oQiX2J7Qdg7pAIAcqrHNrg
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,3,1 Stop Sushi Express,Saint Louis,Ac_ql8b7jUom4CybVkjMUQ
+5.0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,3,Wok And Roll STL,Overland,oe-0vToZLliusFJQrX5Jqw
+5.0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,3,Hōru Sushi Kitchen,Nashville,0fYRCLVFWte0uo-1W7gJGQ
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,3,Ali'i Poke Fishers,Fishers,NIIDHVkiPh0jAkQ02BeOig
+5.0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,3,New China House,Quakertown,6tS_CLhwBTN6L511ABgplw
+5.0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,3,BluWave Sushi,Tampa,X2xFkUWs2_cJxoYwh2cB6w
+5.0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,3,Mama Yang and Daughter,Nashville,6RxJLsIoRSkUfvOxYP0sKQ
+5.0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,3,Shaking Bowl,St. Louis,th_JTAz4rk5vaqJKB3QGfw
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,3,Nagomi,New Orleans,3lbhIJ8i-dHzMNtC-FW8tA
+5.0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,3,Midori Sushi,Philadelphia,Waz1bXpzTgfB9DOouGjJ2Q
+5.0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,3,Lian Hsing's,Philadelphia,hc11CyeADoC4NhPzStObUQ
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,3,Maat Zip,Elkins Park,U0zDLXmqyUwRnPrF8KCepQ
+5.0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,3,Pete Sushi & Poke,Madeira Beach,OeL51BtqHdORVqqjNT4YNw
+5.0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,3,Sesami,Ardmore,D9f3t8e1dKhHP1rI0edd9w
+5.0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,3,Katsumi's Teaching Kitchen,Beech Grove,IDITmPV4olLuRHdnQ9m9BQ
+5.0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,Welcome Home Cafe,Jenkintown,vb2XWr50QhBpcOtpzxmKWA
+5.0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,Plan Shop Live,Maryville,IC4_eqxeqLqN0P_6Zqa6rA
+5.0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,GET Cafe,Narberth,72_YsggUrXElHQ3eqVlOpw
+5.0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,Bearded Bagel,Indianapolis,MknwuLhOJ96naxbmm12CPQ
+5.0,0,0,0,0,0,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,Evermore Cafe,Largo,QAB5tp1anXy-tJxtj6Pwsw
+5.0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,Pineapple Espresso,Saint Petersburg,JR_at-dxUfPAfaMEHJNk-A
+5.0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,Legal Grounds Cafe,Wilmington,9XzPqLGIkuN1rmqWH7aP9A
+5.0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,The Café at Thistle Farms,Nashville,l3S_LsPam6ejdQo37V4kVg
+5.0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,1,1,0,0,0,0,1,0,Crisp Food Truck,Boise,HAZErBVo3R3cJZvrbR_Q6A
+5.0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,Remedy,Edmonton,2QIxk_gGB9rRX45uzmPHuA
+5.0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Cafe Madison Holland,Holland,3BgB3Pp0ZBzS3rwmXdw3nw
+5.0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Sammy’s Bullfrog Cafe,Harleysville,4caDWodT3H9v4ekwCsh6oQ
+5.0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,Park Island Brew,New Orleans,bK5gt7LHnDjCfZnAGuK0ig
+5.0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Nonno’s Cajun Cuisine and Pastries,New Orleans,9qdUEbbjzjcpPbXKeRN4zw
+5.0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,Cafe Porche and snowbar,New Orleans,rbPK4jSyFS10zhWYvo_Srg
+5.0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,1,0,Karla's Kitchen,Flourtown,k3CN4-QImUeSTWpS1Qd6IQ
+5.0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,City's Bistro,Saint Petersburg,gPvGfB8LegnVLF0CIFfBOg
+5.0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,Native Cafe,Doylestown,sQ3Q5UAN3eStKnrxkK8E_A
+5.0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,Rush Bowls,Boise,ryj64Cch-qKlOwJ3zTs6NA
+5.0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,52nd Station Diner,Philadelphia,f8LkUwzYthcG8jTagLzK1w

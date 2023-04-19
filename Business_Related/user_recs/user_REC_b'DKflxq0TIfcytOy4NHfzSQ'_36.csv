@@ -1,0 +1,51 @@
+stars,American (New),American (Traditional),Bakeries,Bars,Beer,Breakfast & Brunch,Burgers,Cafes,Caterers,Chicken Wings,Chinese,Cocktail Bars,Coffee & Tea,Delis,Desserts,Fast Food,Italian,Japanese,Mexican,Nightlife,Pizza,Salad,Sandwiches,Seafood,Specialty Food,Sports Bars,Sushi Bars,is_American,is_Dessert,is_Bar,"is_Beer,Wine,Spirits",is_Breakfast,is_Coffee & Tea,is_Asian,is_Italian,"is_Healthy,Specialty Food",is_Latin American,is_Mediterranean,is_Western European,is_Slavic Food,is_African,is_Food Markets/Shops,label,name,city,bus_id
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,5,Taqueria La Coyota 2,New Orleans,J-qcPBEgIPhxvx-Uj4ahNQ
+5.0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,5,Frida’s Oaxacan Cuisine,Nashville,KPofPh5SmzKumg-PpbAEYw
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,Tex Mex Burriro,Wilmington,VmxGFqtplC3yIOClQ3Tulg
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,Rico Mexican Tacos,Philadelphia,zkk9mNwJS7va4l0Dp1HPEw
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,Taqueria La lucha,New Orleans,kuQ-hmZHQa2VXeFyJwew5A
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,El Guero  Mexican Food Truck,Philadelphia,dIwOZoxwSpPUV3eMYFzPqw
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,5,Tacos Mobile Primo,Boise,pF0R_ub8Wdh0ZqeYi1Ig4w
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,5,El Chivo Jaliciense Taqueria y Birrieria,Indianapolis,WPgupYKCJOHDZOaRA5kamg
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,5,Beline Carncerica and Deli,Reno,CSZmpx5iQsXAl7Pkt4WNlw
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,5,Mamita's Hot Tamales,New Orleans,rmeq7nfiry0HFQD-on9tNw
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,5,The Sweet Coquí,Tucson,pJch8MuldB4WJtg6gsTU5Q
+5.0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,5,Cristino's Bakery,Goleta,vyyr3G874jpRYSQo2KPZow
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,El Pastorcito,Santa Barbara,PrJEYGjlhaF0BSZk_Q-uPg
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,5,Taqueria El Poblano,New Orleans,hmVzfuqvCGzTzjGUpJN3QQ
+5.0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,5,Dos Sisters,Madison,8_fVyrBP2eyq3owR1OPg3Q
+5.0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,5,Los Chilaquiles Mexican Breakfast,Reno,DRjFU65k6Iu4tfDZuDkc2A
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,5,The Hungry Hangover,Lutz fl,zAS0PxknG625IhojaidCYQ
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,5,Fuego Habanero,Reno,e66EsIDcYISTRTtr3X4Nsw
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,5,Tamales,Indianapolis,nIOI9hTpyAB2mGyvsREvzg
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,La Tlaxquenita,New Castle,Jmk_N22L1iQ6-EZIlexqag
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,La Canasta Mexican Food,Philadelphia,Faog49Gh5vUudIhUqI9m2A
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,5,El Molino Tortilleria and Restaurant,Philadelphia,tUcZMaE2XPp6qJK5dbZlpg
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,5,Restaurante y Cenaduría El Quino,Tucson,_ZmS8g4F2nsOw24hyXcM_w
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,5,Delicias Jalisco,Indianapolis,D20SSLc_NBW_0ILZMSbpqw
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,5,Taco Rico,Tucson,nvwtUKh6rBb29rFbC9kq5w
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,Antojitos Dona Chirris,Clearwater,PQjdh4gB2MXiLm8VPjBPsQ
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,Xtreme Tacos - Seminole Heights,Tampa,NL_RDDQ_uPAT8t-x7hINvA
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,5,Rocky’s Tacos,Tampa,CCTiWIoDTemk4XSCtKKB0A
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,5,La Tropicana ,Terrytown,mz20-ebkYr890wsmq8soLQ
+5.0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,5,Avocado Fiesta Restaurant,Merchantville,YfYmMthhVnn5mGUAYFnZZw
+5.0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,2,Mala Luna,Boise,Lp7L4FgsRwmlRpEgLD7pxQ
+5.0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,Midtown District,Reno,H4hhXFnCwKuZ5rbbCYWezA
+5.0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,2,Kapu Haole,Nashville,VksUdmHPB7H0JzLLQ63KrA
+5.0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,2,Novella Wine Bar,Saint Louis,Zz1utCut0psbC4brBjvSEg
+5.0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,2,Go Vegan Philly,Wilmington,HsCX4E7_k-XXS-1iTz17CA
+5.0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,2,La Eskina Indy,Indianapolis,kWbCmkx7Pd1kzHDT919FLA
+5.0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,2,1205 Distillery,Indianapolis,hTbh7GvxD4bzsamttFyy7w
+5.0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,1,0,0,0,2,GoldLeaf Savory & Sweet,Indianapolis,CQjuS4uwiQV5SZ491vna1Q
+5.0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,Kensington Pub,Philadelphia,mVEqN8IPU-vCeKTXC5lsSQ
+5.0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,2,Green Box Kitchen,Wilmington,qOFcDjpUw5oeV7LIdDAubg
+5.0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,American Townhouse,New Orleans,7k-tfmFwqgPYPMIGik4HIg
+5.0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,1,0,0,0,0,2,Mio’s Grill & Cafe,St. Petersburg,YnGlopjmCYM6Pw07qt9bfw
+5.0,1,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,2,Batture Bistro and Bar,New Orleans,gcboPfvHc2Kv8s_f5L0HIw
+5.0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,2,Box Of Cubans,Tampa,xYDO35xImuSEGO5fKk6UtA
+5.0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,2,Tampa Wine Room ,Tampa,IhidGSRMJSnVeocxiOC20Q
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,Yinzer’s Amazing Cheesesteaks,New Orleans,pn-ZjLcRvHKNpdookxK_ig
+5.0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,Bar K St Louis,Saint Louis,7cJqiBsrddV_rNFBPHOTRA
+5.0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,2,Culture + Co.,Nashville,Er_6k2pvoYmYMXqzLsh_oQ
+5.0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,2,The Blue Flamingo Sports Bar & Grill,New Orleans,-YxrHNjPHfha1h2Kvm_G0w
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,2,New Orleans Daquiries,Gretna,-HL8513QTgQ50vWjtg2Dyg
