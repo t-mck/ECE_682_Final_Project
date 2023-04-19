@@ -1,0 +1,51 @@
+stars,American (New),American (Traditional),Bakeries,Bars,Beer,Breakfast & Brunch,Burgers,Cafes,Caterers,Chicken Wings,Chinese,Cocktail Bars,Coffee & Tea,Delis,Desserts,Fast Food,Italian,Japanese,Mexican,Nightlife,Pizza,Salad,Sandwiches,Seafood,Specialty Food,Sports Bars,Sushi Bars,is_American,is_Dessert,is_Bar,"is_Beer,Wine,Spirits",is_Breakfast,is_Coffee & Tea,is_Asian,is_Italian,"is_Healthy,Specialty Food",is_Latin American,is_Mediterranean,is_Western European,is_Slavic Food,is_African,is_Food Markets/Shops,label,name,city,bus_id
+5.0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,Welcome Home Cafe,Jenkintown,vb2XWr50QhBpcOtpzxmKWA
+5.0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,Plan Shop Live,Maryville,IC4_eqxeqLqN0P_6Zqa6rA
+5.0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,GET Cafe,Narberth,72_YsggUrXElHQ3eqVlOpw
+5.0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,Bearded Bagel,Indianapolis,MknwuLhOJ96naxbmm12CPQ
+5.0,0,0,0,0,0,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,Evermore Cafe,Largo,QAB5tp1anXy-tJxtj6Pwsw
+5.0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,Pineapple Espresso,Saint Petersburg,JR_at-dxUfPAfaMEHJNk-A
+5.0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,Legal Grounds Cafe,Wilmington,9XzPqLGIkuN1rmqWH7aP9A
+5.0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,The Café at Thistle Farms,Nashville,l3S_LsPam6ejdQo37V4kVg
+5.0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,1,1,0,0,0,0,1,0,Crisp Food Truck,Boise,HAZErBVo3R3cJZvrbR_Q6A
+5.0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,Remedy,Edmonton,2QIxk_gGB9rRX45uzmPHuA
+5.0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Cafe Madison Holland,Holland,3BgB3Pp0ZBzS3rwmXdw3nw
+5.0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Sammy’s Bullfrog Cafe,Harleysville,4caDWodT3H9v4ekwCsh6oQ
+5.0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,Park Island Brew,New Orleans,bK5gt7LHnDjCfZnAGuK0ig
+5.0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Nonno’s Cajun Cuisine and Pastries,New Orleans,9qdUEbbjzjcpPbXKeRN4zw
+5.0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,Cafe Porche and snowbar,New Orleans,rbPK4jSyFS10zhWYvo_Srg
+5.0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,1,0,Karla's Kitchen,Flourtown,k3CN4-QImUeSTWpS1Qd6IQ
+5.0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,City's Bistro,Saint Petersburg,gPvGfB8LegnVLF0CIFfBOg
+5.0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,Native Cafe,Doylestown,sQ3Q5UAN3eStKnrxkK8E_A
+5.0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,Rush Bowls,Boise,ryj64Cch-qKlOwJ3zTs6NA
+5.0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,52nd Station Diner,Philadelphia,f8LkUwzYthcG8jTagLzK1w
+5.0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,The Breeze Waterfront Cafe,Gulfport,dfMwNf78ttnEYXNRTIhXeA
+5.0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,Spaddy's Coffee,Tampa,5HRLUzKrs27kuQhgJQijnQ
+5.0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,1,0,1,0,0,1,1,0,0,0,0,0,1,0,Fat Beet Farm,Tampa,80nVSRONLpXRnjYMNVrq3g
+5.0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,Raptor Canyon Cafe,Tucson,u4P6hqDz6-QG9PR2Pj5KIw
+5.0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,Marlene's Original Breakfast Sandwich,Tampa,8bUZSK2GPfwkGRbh06r07w
+5.0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Songbird,St. Louis,4Cz38KFH0HrX-TCYDaQQwg
+5.0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,Meadowbrook Bakery and Cafe,Huntingdon Valley,pzGBno0OEeEIAjB45h3O0Q
+5.0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,D'Andrews Bakery & Cafe,Nashville,bZcW_CPll-WaAgciSLPyrA
+5.0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Buckets Eatery,Madeira Beach,qHU175eb4hSSs-_981ja0A
+5.0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,Moon Rabbit Cafe,Reno,ytaVHTK7kdHxUscf2PCrow
+5.0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,6,Brown Bag,Franklin,QQHYGzspSIURR9Uw5jv5aA
+5.0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,1,6,"Westwood Grocery, Deli & Catering",Glendale,Psf1p-qzz1nnNlN6RepawQ
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,B J's Country Store & Deli,Mount Laurel,NsGDYMsoRFPoBweOW0t5KQ
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,Pauline's Deli,Philadelphia,oCWx92FxeWJc5_tkQYGJTw
+5.0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,6,Small Batch Kitchen Cafe and Market,Lansdale,fMIjg71Le9Qf-Ew60xsehg
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,6,Palm Tree Gourmet,Philadelphia,d4QFJfL5q4nguXfWJUphZg
+5.0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,1,6,Yellow Bicycle Canteen,Philadelphia,JAMmjTFdUGBpV24K1riSjQ
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,6,Long John Silver's,Arnold,6cUDFUgqxhW5UrlEzrM7dg
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,6,Indulge Boise Food Tours,Boise,PjN96vtir5pNj9nfiexnxw
+5.0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,6,The Sweet & Savory Kitchen,Tucson,VGU-5m_0iR9pFriKyOD54g
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,6,Zito Deli,Saint Louis,uEPuXaBX0n37vmrYAe9kwQ
+5.0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,6,Original Thought,New Orleans,b2NYyx-BqwNHgOC5RnXzmw
+5.0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,6,The Duke Of Ribs,St. Petersburg,cQKvQMtNPDMvzwuBEB25Ng
+5.0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,Flaps and Racks,Tucson,EnKAH7wEUGyLRhSx0x-v0g
+5.0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,The Brinehouse,Safety Harbor,cSefUziE1VrSzd245U-xMA
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,6,Wild Cajun Blue Crab & Shrimp,St. Petersburg,RGOAfCxhjhc9e5qcu0Bx1A
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,Gateway Subs,St. Petersburg,Q0czcveX_ECJ9sXfGL2d3A
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,6,Doily,New Orleans,K4erLZcvyz7g1QgO91v7FA
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,6,Eastside Deli,Truckee,D5n8XvQqC_vzOCi63wNChQ
+5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,6,Crumb,Haddonfield,Zm0lPhMAvKZfYaKORR3Psg
