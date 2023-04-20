@@ -1,0 +1,51 @@
+,name,address,city,state,latitude,longitude,stars,review_count,categories,is_American,is_Dessert,is_Bar,"is_Beer,Wine,Spirits",is_Breakfast,is_Coffee & Tea,is_Asian,is_Italian,"is_Healthy,Specialty Food",is_Latin American,is_Mediterranean,is_Western European,is_Slavic Food,is_African,is_Food Markets/Shops
+MBBYCVzoQjNYaDlLjHd8AQ,Taqueria DF,Claiborne Ave & Eagle St,New Orleans,LA,29.96058,-90.1265177,4.5,14,"Mexican, Restaurants, Food Stands",0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+ukMy1_eFj5nKSZSPYd4LSA,Nola Vegan,1923 Leonidas St,New Orleans,LA,29.9561495,-90.1279653,4.5,33,"Restaurants, Vegan",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+iYUwyARgC_RNPA1rTlL3-Q,Crabby Jack's,428 Jefferson Hwy,New Orleans,LA,29.964702,-90.1355104,4.5,382,"Seafood, Sandwiches, Cajun/Creole, Restaurants, Southern",1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+V4rJ61k14_u0t-rZzLbXiA,Burger King,2423 S Carrollton Ave,New Orleans,LA,29.9562251,-90.1195715368,1.5,21,"Fast Food, Restaurants, Burgers",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+znmW7djuEJjlMI0hw-utEw,Red Star Chinese Restaurant,8330 Earhart Blvd,New Orleans,LA,29.9624302,-90.1178508,2.5,97,"Latin American, Restaurants, Vegetarian, Diners, Seafood, Szechuan, Soup, Chicken Wings, Chinese",1,0,0,0,1,0,1,0,1,1,0,0,0,0,1
+PupRtvjjZJcLzIlkMw3hpA,Barrows Catfish Restaurant New orleans,"8300 Earhart Blvd, Ste 103",New Orleans,LA,29.962288906,-90.1177174251,4.5,197,"Restaurants, Fish & Chips",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+qoX0BWUTCIEXJAN-5Je_lQ,Waffle House,612 Jefferson Hwy,Jefferson,LA,29.9648902,-90.1370927,4.5,13,"Restaurants, Diners, Breakfast & Brunch, American (Traditional)",1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+yY3kq6_2m1FyY9MgaiHgoQ,Ye Olde College Inn,3000 S Carrollton Ave,New Orleans,LA,29.9605088,-90.115896,4.0,234,"Restaurants, Southern, Cajun/Creole, American (New)",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+EOQsMjsbd8DZ5-H-yuRmmg,Sam's Po-Boys,260 Brooklyn Ave,Jefferson,LA,29.9604508,-90.1404489,4.5,11,"American (Traditional), Grocery, Sandwiches, Food, Fast Food, Restaurants",1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+-fJPJP7iOd1ukDNqTSINIg,Riccobono’s Panola St. Cafe,7801 Panola St,New Orleans,LA,29.9517993,-90.1204497,4.0,217,"Burgers, Food, Coffee & Tea, Restaurants, Breakfast & Brunch, Cafes, Salad",1,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+WFGoAG3HF2T1cTVr5HUD2w,Chilango's Bar & Grill,1506 S Carrollton Ave,New Orleans,LA,29.9497631227,-90.1275601611,3.5,50,"Burgers, Desserts, Barbeque, Bars, Nightlife, Tacos, Restaurants, Mexican, Food",1,1,1,0,0,0,0,0,0,1,0,0,0,0,0
+eSiK2t53rksd2AqQLxiADw,Popeyes Louisiana Kitchen,3100 S Carrollton Ave,New Orleans,LA,29.9615142,-90.1150473,2.5,29,"Chicken Wings, American (Traditional), Fast Food, Restaurants",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+aeIWVa6G54UUo6yloJkyJg,Lebanon's Cafe,1500 S Carrollton Ave,New Orleans,LA,29.949729,-90.127641,4.5,561,"Restaurants, Middle Eastern",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+phjKQDkg4l062nUifkqbLQ,Wendy's,3138 S. Carrollton Ave.,New Orleans,LA,29.9618757,-90.1149742,1.5,17,"Fast Food, Burgers, Restaurants",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+WT8Xrlie27iXnZAzsrf5ig,Panchita's Mexican Criolla,1434 S Carrollton Ave,New Orleans,LA,29.9494438,-90.1277928,3.5,169,"Latin American, Restaurants, Cajun/Creole, Mexican, Breakfast & Brunch",1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+BfkqPDZ2Tt7Afhp5gn3wfw,Thai Mint,1438 S Carrollton Ave,New Orleans,LA,29.9493849,-90.1276515,4.0,168,"Thai, Restaurants",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+hLlDzRaDGN-0SlEWk0xTpQ,Breads on Oak Cafe & Bakery,8640 Oak St,New Orleans,LA,29.95113,-90.1348639,4.5,388,"Food, Bakeries, Cafes, Restaurants, Vegan",0,1,0,0,0,1,0,0,1,0,0,0,0,0,0
+X1aAjsufci2ibaxSbhFl4Q,Ajun Cajun,8433 Oak St,New Orleans,LA,29.9501047092,-90.1328084,4.5,51,"Restaurants, Japanese Curry, Pop-Up Restaurants, Cajun/Creole, Japanese, Ramen, Seafood, Noodles",1,0,0,0,0,0,1,0,0,0,0,0,0,0,1
+OZ75-Oqne48k7DTTpeggGA,Domino's Pizza,3212 S. Carrolton Ave,New Orleans,LA,29.9621802,-90.1143841,2.5,11,"Chicken Wings, Restaurants, Sandwiches, Pizza",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+DeWn3Uv2DucZZvATXmfKNg,Rally's,3222 South Carrollton Ave,New Orleans,LA,29.9622704,-90.1141545,2.0,24,"Fast Food, Restaurants, Burgers",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+q1whmG4Jdift2yL5nSJR_Q,Hangout Ramen,1340 S Carrollton Ave,New Orleans,LA,29.948753049,-90.1285501,4.5,24,"Sushi Bars, Restaurants, Japanese",0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+bLRniXOqbySqRKnR_2meJg,Subway,1332 S Carrollton Ave,New Orleans,LA,29.9486977169,-90.1286461559,3.5,11,"Specialty Food, Fruits & Veggies, Food, Sandwiches, Restaurants, Fast Food",1,0,0,0,0,0,0,0,1,0,0,0,0,0,1
+paf-TbchoCfQoHPVOoNvlQ,Seafood Sally's,8400 Oak St,New Orleans,LA,29.9493462,-90.1326987,3.5,43,"Restaurants, Seafood",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+AZJpX5slpbZUTU9INbwu0g,Nice Guys Bar and Grill,7910 Earhart Blvd,New Orleans,LA,29.960006,-90.113653,3.5,109,"Bars, Nightlife, Restaurants, American (Traditional), Chicken Wings",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+HV7AHORTkLqIfhR-tpRmzg,Asuka Sushi & Hibachi,7912 Earhart Blvd,New Orleans,LA,29.9600836,-90.1134502,4.5,307,"Restaurants, Sushi Bars, Food, Japanese, Asian Fusion",0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+gWKOrelk92IMrWvS_iFcqg,14 Parishes on Oak,8227 Oak St,New Orleans,LA,29.9486701,-90.1311269,4.5,16,"Caribbean, Restaurants",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+-ZAVJcrczPaTVYa5KUUuRg,Raising Cane's Chicken Fingers,3235 S Carrollton Ave,New Orleans,LA,29.961948,-90.113459,3.0,31,"Fast Food, Restaurants, Chicken Shop, Food",1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+5rScKeYVjFk8VahsvJv9QA,Mikimoto,3301 S Carrollton Ave,New Orleans,LA,29.9623346259,-90.1132959741,4.0,394,"Japanese, Sushi Bars, Restaurants, Fast Food, Asian Fusion",1,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+75-8g8QXc2ogOT3Kh2JuTA,Who Dat,7838 Earhart Blvd,New Orleans,LA,29.9597542,-90.1131839,4.0,13,"Restaurants, Chicken Wings",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2mBzfKvAM4kSU6Gm9WS7lg,d4 Tabletop Gaming Cafe,8228 Oak St,New Orleans,LA,29.9484004543,-90.1312233653,5.0,8,"Food, Sandwiches, Delis, Themed Cafes, Cafes, Coffee & Tea, Shopping, Tabletop Games, Restaurants",1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+asNmnXz9rT7JpJuvuX408w,Subway,"1201 Jefferson Hwy, Ste C",Jefferson,LA,29.9628202,-90.1423646,4.0,6,"Restaurants, Sandwiches, Fast Food",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ifC2ha-7HZt4xKUVou6wTw,Grounded Coffee Cafe,1204 Jefferson Hwy,Jefferson,LA,29.9621315,-90.142493,4.5,25,"Sandwiches, Restaurants, Food, Breakfast & Brunch, Coffee & Tea, Cafes",1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+s4JWixWbeLhyUw1pEI2Cfg,Loya's Mexican Restaurant,3102 Fern St,New Orleans,LA,29.9603554,-90.112916,4.5,17,"Restaurants, Salad, Mexican",0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+xFk0apIOljR2DL5Zj-VNOA,Chinese American Cafe,1228 Jefferson Hwy,New Orleans,LA,29.962097,-90.1428072,3.5,34,"Restaurants, Chinese",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+mhj9KWNqKnEAb55-94ZzfA,Live Oak Cafe,8140 Oak St,New Orleans,LA,29.9478968,-90.1306942,4.0,197,"Restaurants, Sandwiches, Breakfast & Brunch, Arts & Entertainment, Comfort Food, Music Venues, Cafes, Southern, Nightlife",1,0,1,0,1,1,0,0,0,0,0,0,0,0,0
+wXyHGKmlvQUBGexb2my0JQ,Tru Burger,8115 Oak St,New Orleans,LA,29.9477866,-90.130095,3.5,244,"Burgers, American (Traditional), Restaurants",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2MHNvEPEGxvBxZLXM5ESpg,Pho Bistreaux,"1200 S Carrollton Ave, Ste A",New Orleans,LA,29.9475543,-90.1297535,4.5,268,"Restaurants, Food, Vietnamese",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+cpsdgiE7hmOw8UtymGTkCQ,Oak,8118 Oak St,New Orleans,LA,29.9475942,-90.1303617,4.0,125,"Beer, Wine & Spirits, Bars, Tapas Bars, Restaurants, Food, Nightlife, Wine Bars",0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+FSvFk1lWR0YBYP_-L_iLTQ,Rue De La Course,1140 S Carrollton Ave,New Orleans,LA,29.9473419,-90.1299849,3.5,255,"Coffee & Tea, Restaurants, Food",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ujM10t6IRJGA2I5mYpd8XQ,El Taco Loco,1120 S Carrollton Ave,New Orleans,LA,29.9472200137,-90.1303499937,4.5,124,"Tacos, Restaurants, Mexican",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+82_lGisVlstS_ojKZw9qNw,CIBO,"1114 S Carrolton Ave, Ste A",New Orleans,LA,29.947222,-90.130478,5.0,132,"Delis, Italian, Restaurants",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+854d-ziK_hQFmbNdvF3ZsA,LUCA eats,7329 Cohn St,New Orleans,LA,29.9487467933,-90.1199507258,4.5,166,"Cafes, American (Traditional), Breakfast & Brunch, Sandwiches, Restaurants, Coffee & Tea, Food",1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+UxPNpzKEC4FpdidHz8MCcA,McDonald's,3443 S Carrollton,New Orleans,LA,29.963288674,-90.1118321,2.5,23,"Coffee & Tea, Food, Restaurants, Burgers, Fast Food",1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+lcTR-NewLIrTTYwyAJJzUg,Subway,"3502 S Carrollton Ave, Ste K",New Orleans,LA,29.9649693497,-90.1121672298,3.0,5,"Restaurants, Fast Food, Sandwiches",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GUgIOkipkxvabF5jQCctVQ,Five Happiness Chinese Restaurant,3605 S Carrollton Ave,New Orleans,LA,29.964386,-90.110862,3.0,319,"Chinese, Restaurants",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+EJeq9K5-ilBj8bSbCX4cMw,IHOP,3511 S Carrollton Ave,New Orleans,LA,29.9644,-90.1108,2.0,60,"American (New), Breakfast & Brunch, Burgers, American (Traditional), Restaurants",1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+gPJINUjnBmnn8veAYMo8Zw,Adams Street Grocery & Deli,1309 Adams St,New Orleans,LA,29.9455586,-90.1253740811,4.5,94,"Restaurants, Sandwiches, Food, Delis, Grocery",1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+NBnCQ51OSgf9RYEczzRKkw,Paella Nola,,New Orleans,LA,29.9450835,-90.1261013,5.0,6,"Spanish, Farmers Market, Food, Tapas/Small Plates, Caterers, Event Planning & Services, Restaurants",0,0,0,0,0,0,0,0,0,1,0,1,0,0,1
+TMBbCDQG6bENJoQSST0XiA,Brigtsen's Restaurant,723 Dante St,New Orleans,LA,29.9456059,-90.1346452,4.5,335,"Restaurants, Cajun/Creole, Active Life, Southern",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6jKFWxE2fJIhfwbYgwqcfg,Barcelona Tapas,720 Dublin St,New Orleans,LA,29.9450458376,-90.1340996944,4.5,118,"Restaurants, Tapas/Small Plates, Spanish",0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
