@@ -162,7 +162,7 @@ class LSTMTrainer(AbstractModelTrainer):
             optimizer.step()
             epoch_losses.append(loss.item())
             epoch_accs.append(accuracy.item())
-            scheduler.step()
+            scheduler.step()                   # Learning rate is adjusted every batch
 
         train_loss = np.mean(epoch_losses)
         train_acc = np.mean(epoch_accs)
@@ -208,6 +208,7 @@ class LSTMTrainer(AbstractModelTrainer):
             training_summary['Accuracy']['Test'] = val_acc
 
         return val_loss
+
 
     def predict_sentiment(self, text, model, vocab, device):
         tokens = self.data_utils.tokenize(vocab, text)
@@ -278,3 +279,55 @@ class LSTMTrainer(AbstractModelTrainer):
         self.evaluate_for_one_epoch(test_dataloader, model, criterion, device, training_summary, validation_set=False)
 
         return model, training_summary
+
+    def evaluate_and_save_preds(self,
+                                dataloader,
+                                model,
+                                device,
+                                criterion):
+
+        print(f'  Eval:')
+
+        model.eval()
+        preds = []
+
+        eval_losses = []
+        eval_accs = []
+
+        with torch.no_grad():
+            for batch in tqdm.tqdm(dataloader, desc='    evaluating...', file=sys.stdout):
+                ids = batch['ids'].to(device)
+                length = batch['length']
+                label = batch['label'].to(device)
+                prediction = model(ids, length)
+                loss = criterion(prediction, label)
+                accuracy = self.get_accuracy(prediction, label)
+                eval_losses.append(loss.item())
+                eval_accs.append(accuracy.item())
+                batch_size, _ = prediction.shape
+                pred_class = prediction.argmax(dim=-1)
+
+                #pred_class = np.argmax(prediction.cpu().detach().numpy(), axis=1)
+                for i in pred_class:
+                    preds.append(int(i)+1)
+
+        eval_loss = np.mean(eval_losses)
+        eval_acc = np.mean(eval_accs)
+        self.print_epoch_update_to_screen(accuracy=eval_acc, loss=eval_loss)
+
+        return preds
+
+    def eval_using_model(self,
+                         model,
+                         device: torch.device,
+                         eval_dataloader,
+                         path_to_saved_model='./saved_model/model.pth',
+                         criterion=None):
+
+        # Load the best model's weights.
+        self.get_saved_model(model=model, path_to_saved_model=path_to_saved_model)
+
+        # Evaluate test loss on testing dataset (NOT Validation)
+        preds = self.evaluate_and_save_preds(eval_dataloader, model, device, criterion=criterion)
+
+        return preds

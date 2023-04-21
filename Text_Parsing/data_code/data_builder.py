@@ -114,27 +114,45 @@ class YelpDataBuilder(DataBuilder):
     This class builds three data sets (test, validation, and training) from the IMDB sentiment review data set.
     """
 
-    def __init__(self):
-
+    def __init__(self, num_categories: int = 5):
         super().__init__()
+        self.num_categories = num_categories
 
     def convert_starts_to_0_base(self, stars_vect):
-        for i in range(0, len(stars_vect)):
-            if stars_vect[i] == 1:
-                stars_vect[i] = 0
-                continue
-            elif stars_vect[i] == 2:
-                stars_vect[i] = 1
-                continue
-            elif stars_vect[i] == 3:
-                stars_vect[i] = 2
-                continue
-            elif stars_vect[i] == 4:
-                stars_vect[i] = 3
-                continue
-            elif stars_vect[i] == 5:
-                stars_vect[i] = 4
-
+        if self.num_categories == 5:
+            for i in range(0, len(stars_vect)):
+                if stars_vect[i] == 1:
+                    stars_vect[i] = 0
+                    continue
+                elif stars_vect[i] == 2:
+                    stars_vect[i] = 1
+                    continue
+                elif stars_vect[i] == 3:
+                    stars_vect[i] = 2
+                    continue
+                elif stars_vect[i] == 4:
+                    stars_vect[i] = 3
+                    continue
+                elif stars_vect[i] == 5:
+                    stars_vect[i] = 4
+        elif self.num_categories == 3:
+            for i in range(0, len(stars_vect)):
+                if stars_vect[i] == 1:
+                    stars_vect[i] = 0
+                    continue
+                elif stars_vect[i] == 2:
+                    stars_vect[i] = 0
+                    continue
+                elif stars_vect[i] == 3:
+                    stars_vect[i] = 1
+                    continue
+                elif stars_vect[i] == 4:
+                    stars_vect[i] = 2
+                    continue
+                elif stars_vect[i] == 5:
+                    stars_vect[i] = 2
+        else:
+            raise ValueError(f'The number of categories provided, {self.num_categories}, is not acceptable.')
 
         return stars_vect
 
@@ -152,6 +170,8 @@ class YelpDataBuilder(DataBuilder):
         :return: train, validation and test set.
         """
         dfx = pd.read_csv(os.getcwd() + '/data/' + data_file)
+        if dfx.shape[1] > 2:
+            dfx = dfx[["text", "stars"]]
         dfx_np = dfx.to_numpy()
         num_obs = len(dfx_np)
 

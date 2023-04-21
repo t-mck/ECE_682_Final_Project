@@ -18,3 +18,11 @@ class DataLoader:
             test_data, batch_size=hparams.BATCH_SIZE, collate_fn=collate)
 
         return train_dataloader, valid_dataloader, test_dataloader
+
+    def get_eval_dataloaders(self, eval_data, hparams):
+        collate = functools.partial(self.data_utils.collate, pad_index=hparams.PAD_INDEX)
+
+        eval_dataloader = torch.utils.data.DataLoader(
+            eval_data, batch_size=hparams.BATCH_SIZE, collate_fn=collate, shuffle=False)
+
+        return eval_dataloader

@@ -38,7 +38,7 @@ class LanguageModelFactory(AbstractModelFactory):
 
     @staticmethod
     def get_lstm(hparams, vocab_size, **kwargs):
-        model = cm.LSTM(vocab_size,
+        model = cm.LSTM( vocab_size,
                          hparams.EMBEDDING_DIM,
                          hparams.HIDDEN_DIM,
                          hparams.OUTPUT_DIM,
@@ -51,7 +51,20 @@ class LanguageModelFactory(AbstractModelFactory):
 
     @staticmethod
     def get_gru(hparams, vocab_size, **kwargs):
-        model = cm.GRU(
+        model = cm.GRU( vocab_size,
+                        hparams.EMBEDDING_DIM,
+                        hparams.HIDDEN_DIM,
+                        hparams.OUTPUT_DIM,
+                        hparams.N_LAYERS,
+                        hparams.DROPOUT_RATE,
+                        hparams.PAD_INDEX,
+                        hparams.BIDIRECTIONAL,
+                        **kwargs)
+        return model
+
+    @staticmethod
+    def get_bert(hparams, vocab_size, **kwargs):
+        model = cm.CustomPretrainedBERT(
                         vocab_size,
                         hparams.EMBEDDING_DIM,
                         hparams.HIDDEN_DIM,
@@ -63,12 +76,6 @@ class LanguageModelFactory(AbstractModelFactory):
                         **kwargs)
         return model
 
-    # def get_bert(self, pretrained: bool = True):
-    #     #model = nn.bert(pretrained=pretrained)
-    #     model = nn.models.
-    #     # TODO: complete this function, want to add more data_code to this... like stack an LSTM on top of it?
-    #     return model
-    #
     # def get_robert(self, pretrained: bool = True):
     #     #model = nn.robert(pretrained=pretrained)
     #     # TODO: complete this function, want to add more data_code to this... like stack an LSTM on top of it?
@@ -81,7 +88,7 @@ class LanguageModelFactory(AbstractModelFactory):
 
     def get_base_model_by_name(self, hparams, vocab_size, base_model_type: str, pretrained: bool = True):
         if base_model_type == 'BERT':
-            return self.get_bert(pretrained=pretrained)
+            return self.get_bert(hparams=hparams, vocab_size=vocab_size)
         elif base_model_type == 'LSTM':
             return self.get_lstm(hparams=hparams, vocab_size=vocab_size)
         elif base_model_type == 'GRU':
@@ -140,8 +147,7 @@ class LanguageModelFactory(AbstractModelFactory):
                                                                        device=device,
                                                                        train_dataloader=train_dataloader,
                                                                        valid_dataloader=valid_dataloader,
-                                                                       test_dataloader=test_dataloader
-                                                                       )
+                                                                       test_dataloader=test_dataloader)
 
         # 5. Model Training Plots
         if plot_training_summary:
@@ -154,3 +160,41 @@ class LanguageModelFactory(AbstractModelFactory):
             return final_model, training_summary
         else:
             return final_model
+
+    def get_and_save_predictions(self,
+                                 eval_data,
+                                 vocab_size,
+                                 hyperparameters: mhf.HyperParams,
+                                 base_model_type: str,
+                                 pretrained: bool = True,
+                                 try_to_use_gpu: bool = True,
+                                 gpu_number: int = 1,
+                                 eval_model_path='./saved_model/model.pth'):
+
+        # 0. Get training hardware (i.e. try to get a GPU if our computer has one)
+        device = self.model_utils.get_training_device(try_to_use_gpu=try_to_use_gpu,
+                                                      gpu_number=gpu_number)
+
+        # 2. Get data_code loader
+        eval_dataloader = self.data_loader.get_eval_dataloaders(eval_data=eval_data,
+                                                                hparams=hyperparameters)
+
+        # 3. Get base model (i.e. get the 'backbone'), optimization function, and optimization criterion
+        base_model = self.get_base_model_by_name(base_model_type=base_model_type,
+                                                 pretrained=pretrained,
+                                                 hparams=hyperparameters,
+                                                 vocab_size=vocab_size)
+
+        # move model to device
+        base_model = base_model.to(device)
+
+        criterion = self.model_utils.get_criterion(device=device)
+
+        # 4. Train model w/ our new data_code
+        preds = self.model_trainer.eval_using_model(model=base_model,
+                                                    device=device,
+                                                    eval_dataloader=eval_dataloader,
+                                                    path_to_saved_model=eval_model_path,
+                                                    criterion=criterion)
+
+        return preds
