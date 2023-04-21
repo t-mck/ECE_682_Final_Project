@@ -253,7 +253,7 @@ def ensemble_model_results_and_display_top_x_resturants(top_x: int = 5,
 
 
 def main():
-    top_x_resturants = 5
+    top_x_resturants = 10
     print(f'+===============================================+')
     print(f'|   Top {top_x_resturants} restaurants using best-vote method    ')
     print(f'|')
@@ -262,7 +262,7 @@ def main():
     print(f'+================================================+')
     print(f'|   Top {top_x_resturants} restaurants using lowest-sum method    ')
     print(f'|')
-    ensemble_model_results_and_display_top_x_resturants(top_x=5, ensemble_method='lowest-sum')
+    ensemble_model_results_and_display_top_x_resturants(top_x=top_x_resturants, ensemble_method='lowest-sum')
     print(f'+================================================+')
 
 
