@@ -3,6 +3,10 @@ import pandas as pd
 
 
 class YelpEnsembleModel:
+    """
+    This class encapsulate the methods needed to combine the predictions of three models which make up the
+    Yelp Restaurant suggestion model, and then output the ensembled prediction.
+    """
     def __init__(self,
                  user_cluster_base_path: str = "/home/taylor/Duke/ECE 682/ECE_682_Final_Project/Analysis/data/user_cluster_rankings/user_cluster_rankings/",
                  business_cluster_base_path: str = "/home/taylor/Duke/ECE 682/ECE_682_Final_Project/Analysis/data/final_user_recs_BC/final_user_recs/",
