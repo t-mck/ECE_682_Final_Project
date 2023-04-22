@@ -7,6 +7,16 @@ class YelpEnsembleModel:
                  user_cluster_base_path: str = "/home/taylor/Duke/ECE 682/ECE_682_Final_Project/Analysis/data/user_cluster_rankings/user_cluster_rankings/",
                  business_cluster_base_path: str = "/home/taylor/Duke/ECE 682/ECE_682_Final_Project/Analysis/data/final_user_recs_BC/final_user_recs/",
                  random_forest_base_path: str = "/home/taylor/Duke/ECE 682/ECE_682_Final_Project/Analysis/data/RF-closest-rankings/"):
+        """
+        Constructor for the YelpEnsembleMethod class
+
+        :param user_cluster_base_path: (str) a full path to the directory containing the predictions for
+        the user-cluster model
+        :param business_cluster_base_path: (str) a full path to the directory containing the predictions for
+        the business-cluster model
+        :param random_forest_base_path: (str) a full path to the directory containing the predictions for
+        the random-forest model
+        """
 
         self.user_cluster_base_path = user_cluster_base_path
         self.bus_cluster_base_path = business_cluster_base_path
@@ -278,7 +288,9 @@ class YelpEnsembleModel:
                                                             bus_cluster_preds=bus_cluster_preds,
                                                             rf_preds=rf_preds)
 
-            ordered_ensemble = self.ensemble_ordered_user_resturant_ranking(user_df, bus_df, rf_df,
+            ordered_ensemble = self.ensemble_ordered_user_resturant_ranking(user_df=user_df,
+                                                                            bus_df=bus_df,
+                                                                            rf_df=rf_df,
                                                                             ensemble_method=ensemble_method)
             self.print_top_x_resturants_from_ensemble_ranking(user_name=k,
                                                               ensemble=ordered_ensemble,
@@ -326,7 +338,7 @@ def main(top_x_restaurants: int = 10,
     the user-cluster model
     :param business_cluster_base_path: (str) a full path to the directory containing the predictions for
     the business-cluster model
-    :param random_forest_base_path: (str)  a full path to the directory containing the predictions for
+    :param random_forest_base_path: (str) a full path to the directory containing the predictions for
     the random-forest model
     :param top_x_restaurants: (int) the number of restaurants to include in the predictions for each user
     :return: None
