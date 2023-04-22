@@ -314,8 +314,9 @@ def main(top_x_restaurants: int = 10) -> None:
     #
     # The ensemble predictions as generated using the best-vote method
     #
+    method = 'best-vote'
     print(f'+===============================================+')
-    print(f'|   Top {top_x_restaurants} restaurants using best-vote method    ')
+    print(f'|   Top {top_x_restaurants} restaurants using {method} method    ')
     print(f'|')
     ensemble_model_results_and_display_top_x_resturants(user_names_dict=user_names_dict,
                                                         top_x=top_x_restaurants,
@@ -325,8 +326,9 @@ def main(top_x_restaurants: int = 10) -> None:
     #
     # The ensemble predictions as generated using the lowest-sum method
     #
+    method = 'lowest-sum'
     print(f'+================================================+')
-    print(f'|   Top {top_x_restaurants} restaurants using lowest-sum method    ')
+    print(f'|   Top {top_x_restaurants} restaurants using {method} method    ')
     print(f'|')
     ensemble_model_results_and_display_top_x_resturants(user_names_dict=user_names_dict,
                                                         top_x=top_x_restaurants,
